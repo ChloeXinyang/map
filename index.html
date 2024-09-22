@@ -19,13 +19,34 @@
 
     <script>
         const spec = {
-            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-            "description": "Australia heritage map",
-            "data": {
-                "url": "https://raw.githubusercontent.com/ChloeXinyang/map/refs/heads/main/map.json",
-                "format": {"type": "json"}
-            },
-            "mark": "geoshape"
+           {
+                "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+                "width": 600,
+                "height": 600,
+                "data": {
+                    "url": "https://raw.githubusercontent.com/ChloeXinyang/map/refs/heads/main/australian-states.json",
+                    "format": {
+                        "type": "topojson",
+                        "feature": "geometry"
+                    }
+                },
+                "projection": {
+                    "type": "mercator",
+                    "center": [135, -30],
+                    "scale": 400
+                },
+                "mark": {
+                    "type": "geoshape",
+                    "fill": "#fee8c8",
+                    "stroke": "black"
+                },
+                "encoding": {
+                    "color": {
+                        "field": "properties.NAME",
+                        "type": "nominal"
+                    }
+                }
+            }
         };
 
         vegaEmbed('#map', spec).then(result => {
