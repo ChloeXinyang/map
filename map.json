@@ -21,7 +21,7 @@
       },
       {
         "data": {
-          "url": "",
+          "url": "https://raw.githubusercontent.com/ChloeXinyang/map/refs/heads/main/australian-states.json",
           "format": {
             "type": "topojson",
             "feature": "geometry"
@@ -40,7 +40,7 @@
       },
       {
         "data": {
-          "url": "",
+          "url": "https://raw.githubusercontent.com/ChloeXinyang/map/refs/heads/main/National_Heritage_List_Spatial_Database_(NHL)_-_public.json",
           "format": {
             "type": "topojson",
             "feature": "National_Heritage_List_Spatial_Database_(NHL)_-_public"
