@@ -25,14 +25,7 @@
                 "url": "https://raw.githubusercontent.com/ChloeXinyang/map/refs/heads/main/map.json",
                 "format": {"type": "json"}
             },
-            // "mark": "geoshape",
-            // "encoding": {
-            //     "color": {
-            //         "field": "properties.NAME",
-            //         "type": "nominal",
-            //         "legend": null
-            //     }
-            // }
+            "mark": "geoshape"
         };
 
         vegaEmbed('#map', spec).then(result => {
