@@ -5,7 +5,7 @@
     "layer": [
       {
         "data": {
-          "url": "australian-states.json",
+          "url": "./australian-states.json",
           "format": {
             "type": "json",
             "property": "features"
@@ -13,38 +13,41 @@
         },
         "projection": {
           "type": "mercator",
-          "scale": 800,
+          "scale": 500,
           "center": [133, -28]
         },
         "mark": {
           "type": "geoshape",
-          "fill": "#e0e0e0",
-          "stroke": "black",
+          "fill": "#fee8c8",
+          "stroke": "#ffffff",
           "strokeWidth": 1
         }
       },
       {
         "data": {
-          "url": "National_Heritage_List_Spatial_Database_(NHL)_-_public.json",
+          "url": "./National_Heritage_List_Spatial_Database_(NHL)_-_public.json",
           "format": {
             "type": "topojson",
             "feature": "arcs"
           }
         },
+        "projection": {
+          "type": "mercator",
+          "scale": 500,
+          "center": [133, -28]
+        },
         "mark": {
           "type": "circle",
           "color": "#e34a33",
-          "tooltip": true
+          "size": {"field": "properties.number_of_sites", "type": "quantitative"}
         },
         "encoding": {
           "longitude": {"field": "properties.longitude", "type": "quantitative"},
           "latitude": {"field": "properties.latitude", "type": "quantitative"},
-          "size": {
-            "field": "properties.number_of_sites",
-            "type": "quantitative",
-            "scale": {"domain": [1, 100], "range": [10, 1000]},
-            "legend": {"title": "Number of Heritage Sites"}
-          }
+          "tooltip": [
+            {"field": "properties.name", "type": "nominal", "title": "Heritage Site"},
+            {"field": "properties.number_of_sites", "type": "quantitative", "title": "Number of Sites"}
+          ]
         }
       }
     ]
