@@ -19,7 +19,7 @@
     },
     {
       "data": {
-        "url": "./australian-states.json",  
+        "url": "./australian-states.json",
         "format": {
           "type": "json",
           "property": "features"
@@ -34,11 +34,17 @@
         "type": "geoshape",
         "fill": "#fee8c8",
         "stroke": "black"
+      },
+      "encoding": {
+        "tooltip": [
+          {"field": "properties.STATE_NAME", "type": "nominal", "title": "State"},
+          {"field": "properties.STATE_CODE", "type": "nominal", "title": "State Code"}
+        ]
       }
     },
     {
       "data": {
-        "url": "./National_Heritage_List_Spatial_Database_(NHL)_-_public.json",  
+        "url": "./National_Heritage_List_Spatial_Database_(NHL)_-_public.json",
         "format": {
           "type": "topojson",
           "feature": "National_Heritage_List_Spatial_Database_(NHL)_-_public"
@@ -53,23 +59,19 @@
         "type": "geoshape",
         "fill": "#e34a33",
         "stroke": "black"
+      },
+      "encoding": {
+        "tooltip": [
+          {"field": "properties.name", "type": "nominal", "title": "Heritage Site"},
+          {"field": "properties.number_of_sites", "type": "quantitative", "title": "Number of Sites"}
+        ]
       }
     }
   ],
-  "encoding": {
-    "color": {
-      "field": "Australia National Heritage Sites",
-      "type": "nominal",
-      "scale": {
-        "domain": ["National Heritage"],
-        "range": ["#e34a33"]
-      },
-      "legend": {
-        "values": ["National Heritage"],
-        "labelColor": "#e34a33",
-        "labelFontSize": 12,
-        "symbolSize": 100
-      }
+  "selection": {
+    "grid": {
+      "type": "interval", 
+      "bind": "scales"
     }
   }
 }
