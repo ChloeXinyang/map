@@ -3,89 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Australia National Heritage Sites Visualization</title>
+    <title>Map</title>
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
         #map {
-            width: 100%;
-            max-width: 800px;
+            width: 600px;
             height: 600px;
-            margin: 0 auto;
-        }
-        h1 {
-            text-align: center;
-            font-size: 24px;
         }
     </style>
 </head>
 <body>
-    <h1>Australia National Heritage Sites Visualization</h1>
     <div id="map"></div>
 
     <script>
         const spec = {
-            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-            "width": 800,
+                    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+            "width": 600,
             "height": 600,
             "layer": [
-                {
-                    "data": {
-                        "url": "./australian-states.json",
-                        "format": {
-                            "type": "json",
-                            "property": "features"
-                        }
-                    },
-                    "projection": {
-                        "type": "mercator",
-                        "scale": 500,
-                        "center": [133, -28]
-                    },
-                    "mark": {
-                        "type": "geoshape",
-                        "fill": "#fee8c8",
-                        "stroke": "#ffffff",
-                        "strokeWidth": 1
-                    }
+              {
+                "data": {
+                  "graticule": true
                 },
-                {
-                    "data": {
-                        "url": "./National_Heritage_List_Spatial_Database_(NHL)_-_public.json",
-                        "format": {
-                            "type": "topojson",
-                            "feature": "arcs"
-                        }
+                "projection": {
+                  "type": "mercator",
+                  "scale": 400
+                },
+                "mark": {
+                  "type": "geoshape",
+                  "stroke": "#ccc",
+                  "strokeWidth": 0.5
+                }
+              },
+              {
+                "data": {
+                  "url": "https://raw.githubusercontent.com/ChloeXinyang/map/refs/heads/main/australian-states.json",
+                  "format": {
+                    "type": "topojson",
+                    "feature": "geometry"
+                  }
+                },
+                "projection": {
+                  "type": "mercator",
+                  "center": [135, -30],
+                  "scale": 400
+                },
+                "mark": {
+                  "type": "geoshape",
+                  "fill": "#fee8c8",
+                  "stroke": "black"
+                }
+              },
+              {
+                "data": {
+                  "url": "https://raw.githubusercontent.com/ChloeXinyang/map/refs/heads/main/National_Heritage_List_Spatial_Database_(NHL)_-_public.json",
+                  "format": {
+                    "type": "topojson",
+                    "feature": "National_Heritage_List_Spatial_Database_(NHL)_-_public"
+                  }
+                },
+                "projection": {
+                  "type": "mercator",
+                  "center": [135, -30],
+                  "scale": 400
+                },
+                "mark": {
+                  "type": "geoshape",
+                  "fill": "#e34a33",
+                  "stroke": "black"
+                }
+              }
+            ],
+            "encoding": {
+                "color": {
+                    "field": "Australia National Heritage Sites",
+                    "type": "nominal",
+                    "scale": {
+                        "domain": ["National Heritage"],
+                        "range": ["#e34a33"]
                     },
-                    "projection": {
-                        "type": "mercator",
-                        "scale": 500,
-                        "center": [133, -28]
-                    },
-                    "mark": {
-                        "type": "circle",
-                        "color": "#e34a33",
-                        "size": {"field": "properties.number_of_sites", "type": "quantitative"}
-                    },
-                    "encoding": {
-                        "longitude": {"field": "properties.longitude", "type": "quantitative"},
-                        "latitude": {"field": "properties.latitude", "type": "quantitative"},
-                        "tooltip": [
-                            {"field": "properties.name", "type": "nominal", "title": "Heritage Site"},
-                            {"field": "properties.number_of_sites", "type": "quantitative", "title": "Number of Sites"}
-                        ]
+                    "legend": {
+                        "values": ["National Heritage"],
+                        "labelColor": "#e34a33",
+                        "labelFontSize": 12,
+                        "symbolSize": 100
                     }
                 }
-            ]
+            }
         };
 
         vegaEmbed('#map', spec).then(result => {
-            console.log("Map successfully loaded.");
+            // Rendering completed
         }).catch(console.error);
     </script>
 </body>
