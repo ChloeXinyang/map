@@ -3,90 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Australia National Heritage Sites Visualization</title>
+    <title>Map</title>
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
     <style>
-        /* Set the size for the map container */
         #map {
-            width: 800px;
+            width: 600px;
             height: 600px;
         }
     </style>
 </head>
 <body>
-    <!-- Map container where the Vega-Lite visualization will be rendered -->
     <div id="map"></div>
 
     <script>
         const spec = {
-            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",  // Define the Vega-Lite schema version
-            "width": 800,  // Width of the visualization
-            "height": 600,  // Height of the visualization
+                    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+            "width": 600,
+            "height": 600,
             "layer": [
               {
                 "data": {
-                  "url": "./australian-states.json",  // Load Australian states geo data from local file
-                  "format": {
-                    "type": "json",  // File format is JSON
-                    "property": "features"  // Access the 'features' property from the geojson
-                  }
+                  "graticule": true
                 },
                 "projection": {
-                  "type": "mercator",  // Use Mercator projection for the map
-                  "scale": 500,  // Set the scale of the map
-                  "center": [133, -28]  // Center the map on Australia
+                  "type": "mercator",
+                  "scale": 400
                 },
                 "mark": {
-                  "type": "geoshape",  // Draw the geographic shapes of the states
-                  "fill": "#fee8c8",  // Light peach color for the states
-                  "stroke": "#ffffff",  // White border for better contrast
-                  "strokeWidth": 1  // Thickness of the border
+                  "type": "geoshape",
+                  "stroke": "#ccc",
+                  "strokeWidth": 0.5
                 }
               },
               {
                 "data": {
-                  "url": "./National_Heritage_List_Spatial_Database_(NHL)_-_public.json",  // Load heritage site data from local file
+                  "url": "https://raw.githubusercontent.com/ChloeXinyang/map/refs/heads/main/australian-states.json",
                   "format": {
-                    "type": "topojson",  // The file is in TopoJSON format
-                    "feature": "arcs"  // Extract the 'arcs' feature from the TopoJSON file
+                    "type": "topojson",
+                    "feature": "geometry"
                   }
                 },
                 "projection": {
-                  "type": "mercator",  // Use Mercator projection for the heritage sites as well
-                  "scale": 500,  // Use the same scale to align with the states
-                  "center": [133, -28]  // Center the map in the same location
+                  "type": "mercator",
+                  "center": [135, -30],
+                  "scale": 400
                 },
                 "mark": {
-                  "type": "circle",  // Draw circles to represent heritage sites
-                  "color": "#e34a33",  // Use red color for the circles representing heritage sites
-                  "size": {"field": "properties.number_of_sites", "type": "quantitative"}  // Size circles based on the number of heritage sites
+                  "type": "geoshape",
+                  "fill": "#fee8c8",
+                  "stroke": "black"
+                }
+              },
+              {
+                "data": {
+                  "url": "https://raw.githubusercontent.com/ChloeXinyang/map/refs/heads/main/National_Heritage_List_Spatial_Database_(NHL)_-_public.json",
+                  "format": {
+                    "type": "topojson",
+                    "feature": "National_Heritage_List_Spatial_Database_(NHL)_-_public"
+                  }
+                },
+                "projection": {
+                  "type": "mercator",
+                  "center": [135, -30],
+                  "scale": 400
+                },
+                "mark": {
+                  "type": "geoshape",
+                  "fill": "#e34a33",
+                  "stroke": "black"
                 }
               }
             ],
             "encoding": {
                 "color": {
-                    "field": "Australia National Heritage Sites",  // Map color to the heritage site field
-                    "type": "nominal",  // Treat it as a categorical variable
+                    "field": "Australia National Heritage Sites",
+                    "type": "nominal",
                     "scale": {
-                        "domain": ["National Heritage"],  // Define the categories for the color legend
-                        "range": ["#e34a33"]  // Use the red color to indicate heritage sites
+                        "domain": ["National Heritage"],
+                        "range": ["#e34a33"]
                     },
                     "legend": {
-                        "title": "Heritage Sites",  // Legend title
-                        "labelColor": "#e34a33",  // Color of the legend labels
-                        "labelFontSize": 14,  // Font size of the legend labels
-                        "symbolSize": 150  // Size of the symbols in the legend
+                        "values": ["National Heritage"],
+                        "labelColor": "#e34a33",
+                        "labelFontSize": 12,
+                        "symbolSize": 100
                     }
                 }
             }
         };
 
-        // Embed the Vega-Lite specification in the 'map' div and render the visualization
         vegaEmbed('#map', spec).then(result => {
-            // Rendering succeeded
-        }).catch(console.error);  // Handle any errors during rendering
+            // Rendering completed
+        }).catch(console.error);
     </script>
 </body>
 </html>
