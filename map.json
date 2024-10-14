@@ -1,7 +1,18 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
+  "width": 800,
   "height": 600,
+  "title": {
+    "text": "Australia's National Heritage Sites",
+    "anchor": "start",
+    "fontSize": 24,
+    "font": "Arial",
+    "color": "#333",
+    "subtitle": "Exploring the locations of culturally and naturally significant sites",
+    "subtitleFontSize": 14,
+    "subtitleColor": "#666",
+    "subtitleFont": "Arial"
+  },
   "layer": [
     {
       "data": {
@@ -35,9 +46,9 @@
         "fill": {
           "condition": {
             "selection": "highlight",
-            "value": "#f03b20"  
+            "value": "#f03b20"
           },
-          "value": "#fee8c8"  
+          "value": "#fee8c8"
         },
         "stroke": "black"
       },
@@ -62,9 +73,12 @@
         "scale": 400
       },
       "mark": {
-        "type": "geoshape",
-        "fill": "#e34a33",
-        "stroke": "black"
+        "type": "circle",
+        "color": "#e34a33",
+        "size": {"field": "properties.number_of_sites", "type": "quantitative"},
+        "tooltip": {
+          "content": "data"
+        }
       },
       "encoding": {
         "tooltip": [
@@ -76,17 +90,30 @@
   ],
   "selection": {
     "highlight": {
-      "type": "single", 
-      "on": "click",  
-      "encodings": ["color"],  
-      "empty": "none"  
+      "type": "single",
+      "on": "click",
+      "encodings": ["color"],
+      "empty": "none"
     },
     "grid": {
-      "type": "interval", 
-      "bind": "scales"  
+      "type": "interval",
+      "bind": "scales"
     }
   },
   "config": {
-    "background": "#f9f9f9"
+    "background": "#f9f9f9",
+    "legend": {
+      "title": "National Heritage Sites",
+      "orient": "top-right",
+      "labelFontSize": 12,
+      "symbolSize": 100,
+      "symbolType": "circle"
+    },
+    "axis": {
+      "labelFontSize": 10,
+      "titleFontSize": 12,
+      "titleFont": "Arial",
+      "labelFont": "Arial"
+    }
   }
 }
