@@ -32,7 +32,13 @@
       },
       "mark": {
         "type": "geoshape",
-        "fill": "#fee8c8",
+        "fill": {
+          "condition": {
+            "selection": "highlight",
+            "value": "#f03b20"  
+          },
+          "value": "#fee8c8"  
+        },
         "stroke": "black"
       },
       "encoding": {
@@ -69,9 +75,18 @@
     }
   ],
   "selection": {
+    "highlight": {
+      "type": "single", 
+      "on": "click",  
+      "encodings": ["color"],  
+      "empty": "none"  
+    },
     "grid": {
       "type": "interval", 
-      "bind": "scales"
+      "bind": "scales"  
     }
+  },
+  "config": {
+    "background": "#f9f9f9"
   }
 }
