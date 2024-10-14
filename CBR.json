@@ -1,0 +1,5462 @@
+{
+    "meta": {
+      "view": {
+        "id": "tm98-3g6d",
+        "name": "CBRfree Map",
+        "assetType": "dataset",
+        "attribution": "iiNet",
+        "averageRating": 0,
+        "category": "Infrastructure and Utilities",
+        "createdAt": 1652250370,
+        "description": "Location of CBRfree Access Points",
+        "displayType": "table",
+        "downloadCount": 395,
+        "hideFromCatalog": false,
+        "hideFromDataJson": false,
+        "licenseId": "CC_30_BY_AUS",
+        "locked": false,
+        "newBackend": true,
+        "numberOfComments": 0,
+        "oid": 38472473,
+        "provenance": "official",
+        "publicationAppendEnabled": false,
+        "publicationDate": 1652250554,
+        "publicationGroup": 18694587,
+        "publicationStage": "published",
+        "rowsUpdatedAt": 1652250548,
+        "rowsUpdatedBy": "8i73-r97r",
+        "tableId": 18694587,
+        "totalTimesRated": 0,
+        "viewCount": 11961,
+        "viewLastModified": 1652250554,
+        "viewType": "tabular",
+        "approvals": [
+          {
+            "reviewedAt": 1652250554,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 4688538,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1652250554,
+            "targetAudience": "public",
+            "workflowId": 2135,
+            "submissionDetails": {
+              "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+              "endedAt": 1652250554,
+              "failureCount": 0,
+              "startedAt": 1652250554,
+              "status": "success"
+            },
+            "submitter": {
+              "id": "8i73-r97r",
+              "displayName": "Andrew McCredie"
+            }
+          }
+        ],
+        "clientContext": {
+          "clientContextVariables": [],
+          "inheritedVariables": {
+  
+          }
+        },
+        "columns": [
+          {
+            "id": -1,
+            "name": "sid",
+            "dataTypeName": "meta_data",
+            "fieldName": ":sid",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+  
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": -1,
+            "name": "id",
+            "dataTypeName": "meta_data",
+            "fieldName": ":id",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+  
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": -1,
+            "name": "position",
+            "dataTypeName": "meta_data",
+            "fieldName": ":position",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+  
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": -1,
+            "name": "created_at",
+            "dataTypeName": "meta_data",
+            "fieldName": ":created_at",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+  
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": -1,
+            "name": "created_meta",
+            "dataTypeName": "meta_data",
+            "fieldName": ":created_meta",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+  
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": -1,
+            "name": "updated_at",
+            "dataTypeName": "meta_data",
+            "fieldName": ":updated_at",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+  
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": -1,
+            "name": "updated_meta",
+            "dataTypeName": "meta_data",
+            "fieldName": ":updated_meta",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+  
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": -1,
+            "name": "meta",
+            "dataTypeName": "meta_data",
+            "fieldName": ":meta",
+            "position": 0,
+            "renderTypeName": "meta_data",
+            "format": {
+  
+            },
+            "flags": [
+              "hidden"
+            ]
+          },
+          {
+            "id": 560264894,
+            "name": "Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 142144217,
+            "cachedContents": {
+              "non_null": "478",
+              "largest": "YWCAL3_AP04",
+              "null": "0",
+              "top": [
+                {
+                  "item": "LANY_AP02",
+                  "count": "1"
+                },
+                {
+                  "item": "CIVC_EAST_AP02-2",
+                  "count": "1"
+                },
+                {
+                  "item": "WODN_AP05-1",
+                  "count": "1"
+                },
+                {
+                  "item": "DICK_AP05-1",
+                  "count": "1"
+                },
+                {
+                  "item": "HAWK_AP01-1",
+                  "count": "1"
+                },
+                {
+                  "item": "EPIC_CONF_AP12",
+                  "count": "1"
+                },
+                {
+                  "item": "GUNG_AP04",
+                  "count": "1"
+                },
+                {
+                  "item": "BELC_AP02",
+                  "count": "1"
+                },
+                {
+                  "item": "KIPP_AP02",
+                  "count": "1"
+                },
+                {
+                  "item": "BELC_AP14",
+                  "count": "1"
+                },
+                {
+                  "item": "BELC_AP17",
+                  "count": "1"
+                },
+                {
+                  "item": "EPIC_COOR_AP25",
+                  "count": "1"
+                },
+                {
+                  "item": "MANU_AP01-1",
+                  "count": "1"
+                },
+                {
+                  "item": "CIVC_WEST_AP14-2",
+                  "count": "1"
+                },
+                {
+                  "item": "EPIC_BUDA_AP08",
+                  "count": "1"
+                },
+                {
+                  "item": "CBR-Mingle_Espresso_Bar",
+                  "count": "1"
+                },
+                {
+                  "item": "EPIC_BUDA_AP01",
+                  "count": "1"
+                },
+                {
+                  "item": "Lutons_Properties_Tuggeranong",
+                  "count": "1"
+                },
+                {
+                  "item": "DICK_AP03-1",
+                  "count": "1"
+                },
+                {
+                  "item": "CBR_Indoor_Rockclimbing",
+                  "count": "1"
+                }
+              ],
+              "smallest": "1MooreSt-L4-AP01",
+              "count": "478",
+              "cardinality": "478"
+            },
+            "format": {
+  
+            }
+          },
+          {
+            "id": 560264893,
+            "name": "location",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "location",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 142144216,
+            "cachedContents": {
+              "non_null": "478",
+              "largest": "-35.458217,149.094172",
+              "null": "0",
+              "top": [
+                {
+                  "item": "-35.273702,149.129162",
+                  "count": "15"
+                },
+                {
+                  "item": "-35.277868,149.127339",
+                  "count": "12"
+                },
+                {
+                  "item": "-35.242128,149.057281",
+                  "count": "6"
+                },
+                {
+                  "item": "-35.308119,149.136488",
+                  "count": "3"
+                },
+                {
+                  "item": "-35.324700,149.142777",
+                  "count": "2"
+                },
+                {
+                  "item": "-35.275798,149.128858",
+                  "count": "2"
+                },
+                {
+                  "item": "-35.415683,149.062958",
+                  "count": "2"
+                },
+                {
+                  "item": "-35.288866,149.131144",
+                  "count": "2"
+                },
+                {
+                  "item": "-35.256408,149.078689",
+                  "count": "2"
+                },
+                {
+                  "item": "-35.22115963,149.01998562",
+                  "count": "1"
+                },
+                {
+                  "item": "-35.278395,149.129913",
+                  "count": "1"
+                },
+                {
+                  "item": "-35.418341,149.066337",
+                  "count": "1"
+                },
+                {
+                  "item": "-35.278203,149.131841",
+                  "count": "1"
+                },
+                {
+                  "item": "-35.249720,149.136728",
+                  "count": "1"
+                },
+                {
+                  "item": "-35.319500,149.131473",
+                  "count": "1"
+                },
+                {
+                  "item": "-35.419993,149.065313",
+                  "count": "1"
+                },
+                {
+                  "item": "-35.239278,149.070484",
+                  "count": "1"
+                },
+                {
+                  "item": "-35.282997,149.124349",
+                  "count": "1"
+                },
+                {
+                  "item": "-35.283241,149.133137",
+                  "count": "1"
+                },
+                {
+                  "item": "-35.232540,149.147166",
+                  "count": "1"
+                }
+              ],
+              "smallest": "-35.164789,149.130725",
+              "count": "478",
+              "cardinality": "441"
+            },
+            "format": {
+  
+            }
+          },
+          {
+            "id": 560264895,
+            "name": "Point",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "point",
+            "position": 3,
+            "renderTypeName": "point",
+            "tableColumnId": 142144218,
+            "cachedContents": {
+              "non_null": "478",
+              "null": "0",
+              "top": [
+                {
+                  "item": {
+                    "coordinates": [149.129162, -35.273702],
+                    "type": "Point"
+                  },
+                  "count": "15"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.127339, -35.277868],
+                    "type": "Point"
+                  },
+                  "count": "12"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.057281, -35.242128],
+                    "type": "Point"
+                  },
+                  "count": "6"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.136488, -35.308119],
+                    "type": "Point"
+                  },
+                  "count": "3"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.131144, -35.288866],
+                    "type": "Point"
+                  },
+                  "count": "2"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.142777, -35.3247],
+                    "type": "Point"
+                  },
+                  "count": "2"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.062958, -35.415683],
+                    "type": "Point"
+                  },
+                  "count": "2"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.128858, -35.275798],
+                    "type": "Point"
+                  },
+                  "count": "2"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.078689, -35.256408],
+                    "type": "Point"
+                  },
+                  "count": "2"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.083774, -35.344985],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.131477, -35.278772],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.131473, -35.3195],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.085158, -35.343233],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.131832, -35.278623],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.136508, -35.284416],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.134291, -35.28102],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.070486, -35.252164],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.071213, -35.253732],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.070547, -35.253407],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                },
+                {
+                  "item": {
+                    "coordinates": [149.098552, -35.402328],
+                    "type": "Point"
+                  },
+                  "count": "1"
+                }
+              ],
+              "count": "478",
+              "cardinality": "441"
+            },
+            "format": {
+  
+            }
+          },
+          {
+            "id": 560264896,
+            "name": "AP Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ap_type",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 142144219,
+            "cachedContents": {
+              "non_null": "478",
+              "largest": "outdoor-mesh",
+              "null": "0",
+              "top": [
+                {
+                  "item": "outdoor",
+                  "count": "186"
+                },
+                {
+                  "item": "outdoor-mesh",
+                  "count": "154"
+                },
+                {
+                  "item": "indoor",
+                  "count": "138"
+                }
+              ],
+              "smallest": "indoor",
+              "count": "478",
+              "cardinality": "3"
+            },
+            "format": {
+  
+            }
+          },
+          {
+            "id": 560264897,
+            "name": "Zip Codes",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (m3s3-eev9) the point in column 'point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_m3s3_eev9",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 142144220,
+            "computationStrategy": {
+              "source_columns": [
+                "point"
+              ],
+              "type": "georegion_match_on_point",
+              "parameters": {
+                "region": "_m3s3-eev9",
+                "primary_key": "_feature_id"
+              }
+            },
+            "format": {
+  
+            }
+          },
+          {
+            "id": 560264898,
+            "name": "Suburb",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Suburb' (h8vr-r9vc) the point in column 'point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_h8vr_r9vc",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 142144221,
+            "computationStrategy": {
+              "source_columns": [
+                "point"
+              ],
+              "type": "georegion_match_on_point",
+              "parameters": {
+                "region": "_h8vr-r9vc",
+                "primary_key": "_feature_id"
+              }
+            },
+            "format": {
+  
+            }
+          }
+        ],
+        "grants": [
+          {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+              "public"
+            ]
+          }
+        ],
+        "license": {
+          "name": "Creative Commons Attribution 3.0 Australia",
+          "logoUrl": "images/licenses/cc30by.png",
+          "termsLink": "http://creativecommons.org/licenses/by/3.0/au/deed.en"
+        },
+        "metadata": {
+          "custom_fields": {
+            "Contributing Agency": {
+              "Contact Email": "Text",
+              "Directorate": "Chief Minister, Treasury and Economic Development"
+            }
+          },
+          "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+          ]
+        },
+        "owner": {
+          "id": "8i73-r97r",
+          "disabledAt": 1687759897,
+          "displayName": "Andrew McCredie",
+          "screenName": "Andrew McCredie",
+          "type": "interactive",
+          "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+          ]
+        },
+        "query": {
+  
+        },
+        "rights": [
+          "read"
+        ],
+        "tableAuthor": {
+          "id": "8i73-r97r",
+          "disabledAt": 1687759897,
+          "displayName": "Andrew McCredie",
+          "screenName": "Andrew McCredie",
+          "type": "interactive",
+          "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+          ]
+        },
+        "flags": [
+          "default",
+          "ownerMayBeContacted",
+          "restorable",
+          "restorePossibleForType"
+        ]
+      }
+    },
+    "data": [
+      [
+        "row-x9ds~mvt2-dai6",
+        "00000000-0000-0000-C55A-7DBADB84E7C0",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "Cornerstone_Cafe",
+        "-35.341635,149.051601",
+        "POINT (149.051601 -35.341635)",
+        "indoor",
+        null, "85"
+      ],
+      [
+        "row-fufk-zqji-e54z",
+        "00000000-0000-0000-C3B2-A1BED784A6A5",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-IN_AP05",
+        "-35.277868,149.127339",
+        "POINT (149.127339 -35.277868)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-gruq~hvic~cru8",
+        "00000000-0000-0000-0EA9-ED577344A103",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP08",
+        "-35.276907,149.126718",
+        "POINT (149.126718 -35.276907)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-gbh8_i4cr.sgpa",
+        "00000000-0000-0000-68C1-91C3D191379F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_CONF_AP14",
+        "-35.232886,149.146659",
+        "POINT (149.146659 -35.232886)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-8ank.shyh_c7zn",
+        "00000000-0000-0000-6B3A-E7B60178EC51",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "SCCTUGG_AP07",
+        "-35.415628,149.06392",
+        "POINT (149.06392 -35.415628)",
+        "indoor",
+        null, "101"
+      ],
+      [
+        "row-cnds_bhr8_nt3s",
+        "00000000-0000-0000-8365-5E96F1A9091F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BRUC_AP01",
+        "-35.248292,149.100109",
+        "POINT (149.100109 -35.248292)",
+        "outdoor",
+        null, "90"
+      ],
+      [
+        "row-mamu_y79x_cvb4",
+        "00000000-0000-0000-2CED-B01FD7DCD546",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP04-2",
+        "-35.275436,149.127293",
+        "POINT (149.127293 -35.275436)",
+        "outdoor-mesh",
+        null, "24"
+      ],
+      [
+        "row-iwb7-7ipr-ty6s",
+        "00000000-0000-0000-1C0D-C54CC02D24CD",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP18",
+        "-35.239981,149.06038",
+        "POINT (149.06038 -35.239981)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-zj2w~vxrn~gri7",
+        "00000000-0000-0000-1548-4FFA9011EE39",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "1MooreSt-L4-AP05",
+        "-35.277868,149.127339",
+        "POINT (149.127339 -35.277868)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-n6s4.xrc3_xuq3",
+        "00000000-0000-0000-A4F0-1FEC661146EB",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-RE",
+        "-35.251974,149.134448",
+        "POINT (149.134448 -35.251974)",
+        "indoor",
+        null, "71"
+      ],
+      [
+        "row-s7z9~b3xf~evvq",
+        "00000000-0000-0000-D2F4-1C290E61A1C4",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP16-1",
+        "-35.281200,149.124127",
+        "POINT (149.124127 -35.2812)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-76rc-v5f5_vcve",
+        "00000000-0000-0000-ACB4-3A5B8AED99F4",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP14",
+        "-35.420549,149.071619",
+        "POINT (149.071619 -35.420549)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-ypw3~8pfm.h2gb",
+        "00000000-0000-0000-E58A-CFF6CDCB86B5",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WEST_AP02",
+        "-35.341435,149.052219",
+        "POINT (149.052219 -35.341435)",
+        "outdoor",
+        null, "85"
+      ],
+      [
+        "row-qedj.fs7d_jebd",
+        "00000000-0000-0000-4204-8D79B3FAE98B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP09-2",
+        "-35.235281,149.066228",
+        "POINT (149.066228 -35.235281)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-y664~gp23-krtx",
+        "00000000-0000-0000-D4AE-046471F4B443",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Dance_Central",
+        "-35.350355,149.086919",
+        "POINT (149.086919 -35.350355)",
+        "indoor",
+        null, "33"
+      ],
+      [
+        "row-b84h-gf3t-qjev",
+        "00000000-0000-0000-5C9E-EE2A4A5FBCEF",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP05-1",
+        "-35.250277,149.136805",
+        "POINT (149.136805 -35.250277)",
+        "outdoor-mesh",
+        null, "71"
+      ],
+      [
+        "row-2eci_686g.6q4z",
+        "00000000-0000-0000-FEBA-70CF21542479",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP03",
+        "-35.239395,149.06365",
+        "POINT (149.06365 -35.239395)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-667p~qg9f-jn4h",
+        "00000000-0000-0000-1422-C616FDD0BEDF",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "King_OMalleys",
+        "-35.278554,149.131107",
+        "POINT (149.131107 -35.278554)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-7z9k-4f35-tias",
+        "00000000-0000-0000-BB6D-F9F45C610A74",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-RUC_AP03",
+        "-35.308119,149.136488",
+        "POINT (149.136488 -35.308119)",
+        "indoor",
+        null, "62"
+      ],
+      [
+        "row-j3bb_axgc~8iev",
+        "00000000-0000-0000-F9AE-A24E8403162A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP13",
+        "-35.250772,149.134004",
+        "POINT (149.134004 -35.250772)",
+        "outdoor",
+        null, "71"
+      ],
+      [
+        "row-ts7k~rz9k-fppm",
+        "00000000-0000-0000-564E-67909F310A90",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CS-canbap",
+        "-35.316055,149.138007",
+        "POINT (149.138007 -35.316055)",
+        "indoor",
+        null, "27"
+      ],
+      [
+        "row-nycw.pux7~x3p8",
+        "00000000-0000-0000-F9CB-3D184E18C747",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_STAD_AP05",
+        "-35.242128,149.057281",
+        "POINT (149.057281 -35.242128)",
+        "indoor",
+        null, "32"
+      ],
+      [
+        "row-k6v9_cehf-avxr",
+        "00000000-0000-0000-540C-4DDB702B9602",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "1MooreSt-L4-AP06",
+        "-35.277868,149.127339",
+        "POINT (149.127339 -35.277868)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-s4f4_cjun_ir48",
+        "00000000-0000-0000-6415-7E938F73C996",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP11",
+        "-35.419142,149.070316",
+        "POINT (149.070316 -35.419142)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-56pq_m9jd~s4z8",
+        "00000000-0000-0000-49BE-970628939885",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP14",
+        "-35.251071,149.135255",
+        "POINT (149.135255 -35.251071)",
+        "outdoor",
+        null, "71"
+      ],
+      [
+        "row-sgqk.3847~zhxk",
+        "00000000-0000-0000-65DD-7DA7AA47834B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP13",
+        "-35.187788,149.138555",
+        "POINT (149.138555 -35.187788)",
+        "outdoor",
+        null, "89"
+      ],
+      [
+        "row-dph4~mhe2-ag7f",
+        "00000000-0000-0000-72D0-3F92C0433480",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_STAD_AP04",
+        "-35.242128,149.057281",
+        "POINT (149.057281 -35.242128)",
+        "indoor",
+        null, "32"
+      ],
+      [
+        "row-auw4~pqiz_5vbg",
+        "00000000-0000-0000-CE66-A7806BB90FFB",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP06-2",
+        "-35.276407,149.128233",
+        "POINT (149.128233 -35.276407)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-hyc6_5azs-mu8c",
+        "00000000-0000-0000-9483-0E67EC437934",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KAMB_AP02",
+        "-35.3795905,149.0583459",
+        "POINT (149.0583459 -35.3795905)",
+        "outdoor",
+        null, "108"
+      ],
+      [
+        "row-hmg7.gpb8~ut9e",
+        "00000000-0000-0000-9CCB-0412C911FDDC",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP08",
+        "-35.277665,149.131965",
+        "POINT (149.131965 -35.277665)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-zh8p~vs63~pin9",
+        "00000000-0000-0000-E67D-6FCECF48F3E5",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP11-1",
+        "-35.316703,149.141125",
+        "POINT (149.141125 -35.316703)",
+        "outdoor-mesh",
+        null, "27"
+      ],
+      [
+        "row-h23y-it8g_9up9",
+        "00000000-0000-0000-B89A-00D7D8A7374B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP04-1",
+        "-35.344574,149.085799",
+        "POINT (149.085799 -35.344574)",
+        "outdoor-mesh",
+        null, "33"
+      ],
+      [
+        "row-7wjx~suyz_6fx9",
+        "00000000-0000-0000-049E-18D0355C18C0",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_Basketball_Stadium_AP01",
+        "-35.415683,149.062958",
+        "POINT (149.062958 -35.415683)",
+        "indoor",
+        null, "101"
+      ],
+      [
+        "row-kux5_km4g_fgsb",
+        "00000000-0000-0000-4428-1CA3A4BF88C3",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "SCCTUGG_AP09",
+        "-35.415442,149.063898",
+        "POINT (149.063898 -35.415442)",
+        "indoor",
+        null, "101"
+      ],
+      [
+        "row-wyq9.evr5~m6cr",
+        "00000000-0000-0000-C108-85B7C39537E0",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "SCCTUGG_AP04",
+        "-35.415731,149.063893",
+        "POINT (149.063893 -35.415731)",
+        "indoor",
+        null, "101"
+      ],
+      [
+        "row-ub5w~2iqv_vdxq",
+        "00000000-0000-0000-5A26-0CC2059C9086",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP07-1",
+        "-35.278623,149.131832",
+        "POINT (149.131832 -35.278623)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-kvkt~wnuv-jqn5",
+        "00000000-0000-0000-2695-D275D290E0C2",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP06",
+        "-35.415120,149.068973",
+        "POINT (149.068973 -35.41512)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-nast_pd2p_2utq",
+        "00000000-0000-0000-2A24-791D3E1ADF48",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_STAD_AP01",
+        "-35.242128,149.057281",
+        "POINT (149.057281 -35.242128)",
+        "indoor",
+        null, "32"
+      ],
+      [
+        "row-a827~y8zx.eunt",
+        "00000000-0000-0000-8B1A-685D733C818A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP23-1",
+        "-35.285221,149.123498",
+        "POINT (149.123498 -35.285221)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-p6mv~axhv-72wb",
+        "00000000-0000-0000-7974-57B8B9FF64B9",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP06",
+        "-35.239148,149.067559",
+        "POINT (149.067559 -35.239148)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-jcdm.4q92-y4es",
+        "00000000-0000-0000-A613-50D86F7547BB",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP15-1",
+        "-35.239024,149.072317",
+        "POINT (149.072317 -35.239024)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-4qgd~3esr-hbbg",
+        "00000000-0000-0000-CA1D-2028FF030930",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KAMB_AP03",
+        "-35.3807549,149.0582683",
+        "POINT (149.0582683 -35.3807549)",
+        "outdoor",
+        null, "108"
+      ],
+      [
+        "row-ume2_at32.vd2n",
+        "00000000-0000-0000-DC43-A2A41F30756F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KIPP_AP02-1",
+        "-35.221781,149.01886",
+        "POINT (149.01886 -35.221781)",
+        "outdoor-mesh",
+        null, "29"
+      ],
+      [
+        "row-utvk_tztk-bxty",
+        "00000000-0000-0000-0DAC-F1EBA97EDA03",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP16",
+        "-35.283241,149.133137",
+        "POINT (149.133137 -35.283241)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-7q8m.ui6g~4ejk",
+        "00000000-0000-0000-7E65-56291C8F1861",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KIPP_AP02",
+        "-35.220933,149.01915",
+        "POINT (149.01915 -35.220933)",
+        "outdoor",
+        null, "29"
+      ],
+      [
+        "row-pfv7.q4ie~p7ec",
+        "00000000-0000-0000-E464-E083637CE01A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP05-2",
+        "-35.185391,149.137202",
+        "POINT (149.137202 -35.185391)",
+        "outdoor-mesh",
+        null, "89"
+      ],
+      [
+        "row-wu7a-fizn-d6k7",
+        "00000000-0000-0000-7CD1-ADF9CD8F2151",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP08",
+        "-35.414295,149.064371",
+        "POINT (149.064371 -35.414295)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-5d6e-igsq-7ez9",
+        "00000000-0000-0000-6FD4-92D0540A7204",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP23",
+        "-35.284352,149.123124",
+        "POINT (149.123124 -35.284352)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-ktek-s84y-dee7",
+        "00000000-0000-0000-42F6-6E9DCFC077BB",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP24",
+        "-35.274685,149.134398",
+        "POINT (149.134398 -35.274685)",
+        "outdoor",
+        null, "52"
+      ],
+      [
+        "row-m7zm.k7th-uide",
+        "00000000-0000-0000-D0F7-11311438B2E8",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CALL_AP01-1",
+        "-35.434265,149.11314",
+        "POINT (149.11314 -35.434265)",
+        "outdoor-mesh",
+        null, "84"
+      ],
+      [
+        "row-cwae_w9p7-i7am",
+        "00000000-0000-0000-FA84-936C2F734A5D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP12-1",
+        "-35.278378,149.128061",
+        "POINT (149.128061 -35.278378)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-jrv7-kw72_2qf4",
+        "00000000-0000-0000-DF9A-16D5686139C3",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CS-M16ArtSpace1-1",
+        "-35.324700,149.142777",
+        "POINT (149.142777 -35.3247)",
+        "indoor",
+        null, "30"
+      ],
+      [
+        "row-zzww-59wp~6t9s",
+        "00000000-0000-0000-AF73-FD4127357D1C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP05-1",
+        "-35.343233,149.085158",
+        "POINT (149.085158 -35.343233)",
+        "outdoor-mesh",
+        null, "33"
+      ],
+      [
+        "row-aixs_8efq.hnkm",
+        "00000000-0000-0000-201D-2E2CB47AEE86",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP14-1",
+        "-35.281418,149.135237",
+        "POINT (149.135237 -35.281418)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-9e5s~y576-iifh",
+        "00000000-0000-0000-8912-7C1EBB3ED6BF",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP13-2",
+        "-35.280238,149.125747",
+        "POINT (149.125747 -35.280238)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-vhfh.dywn~zqrx",
+        "00000000-0000-0000-3785-FC8F2ED63875",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP15-1",
+        "-35.282057,149.124347",
+        "POINT (149.124347 -35.282057)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-nsy6.f2cs-9gvp",
+        "00000000-0000-0000-E4E3-BDFDA458E870",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_CONF_AP10",
+        "-35.232756,149.146585",
+        "POINT (149.146585 -35.232756)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-dqby~8sip.asd2",
+        "00000000-0000-0000-1119-75B89DA412E2",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP11-2",
+        "-35.317137,149.141361",
+        "POINT (149.141361 -35.317137)",
+        "outdoor-mesh",
+        null, "27"
+      ],
+      [
+        "row-bbxn.9c8n-4r3q",
+        "00000000-0000-0000-C8F0-C7919A6B37DE",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP06-1",
+        "-35.414578,149.068405",
+        "POINT (149.068405 -35.414578)",
+        "outdoor-mesh",
+        null, "101"
+      ],
+      [
+        "row-hwr2-p2gn.d7dd",
+        "00000000-0000-0000-62EB-D3ECAA5052F1",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP02",
+        "-35.419301,149.066837",
+        "POINT (149.066837 -35.419301)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-cexg-ygxe~ifh8",
+        "00000000-0000-0000-D490-794E02C566EC",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CHIS_AP02",
+        "-35.414383,149.127991",
+        "POINT (149.127991 -35.414383)",
+        "outdoor",
+        null, "1"
+      ],
+      [
+        "row-iuzc~6nhj_xx2h",
+        "00000000-0000-0000-0A23-A9723A5E7D45",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "ANBG_AP04-2",
+        "-35.274324,149.10861",
+        "POINT (149.10861 -35.274324)",
+        "outdoor-mesh",
+        null, null],
+      [
+        "row-84yf_d8f5_wexi",
+        "00000000-0000-0000-44E0-45238D73228D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP15-1",
+        "-35.283507,149.137093",
+        "POINT (149.137093 -35.283507)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-2nga-mf6w-e7aa",
+        "00000000-0000-0000-F86D-D08E1A5AF121",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "AMAR_AP01",
+        "-35.165224,149.133396",
+        "POINT (149.133396 -35.165224)",
+        "outdoor",
+        null, "54"
+      ],
+      [
+        "row-6x65_h3ep~5wzm",
+        "00000000-0000-0000-5892-D5F9FF086917",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP03-1",
+        "-35.247509,149.134367",
+        "POINT (149.134367 -35.247509)",
+        "outdoor-mesh",
+        null, "97"
+      ],
+      [
+        "row-33tb.spyf.645y",
+        "00000000-0000-0000-A9D5-0C9702B1C175",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP23",
+        "-35.413113,149.063052",
+        "POINT (149.063052 -35.413113)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-4geu.qcjb-kab7",
+        "00000000-0000-0000-C6C0-00E668AD7885",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Buzz_Cafe",
+        "-35.324057,149.172701",
+        "POINT (149.172701 -35.324057)",
+        "indoor",
+        null, "64"
+      ],
+      [
+        "row-vqtu-u6qh_an6x",
+        "00000000-0000-0000-880D-41396B3B2834",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Airport_AP01",
+        "-35.307953,149.190635",
+        "POINT (149.190635 -35.307953)",
+        "indoor",
+        null, "99"
+      ],
+      [
+        "row-zzda~wuu9~65gb",
+        "00000000-0000-0000-DB92-94BFFE602870",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP16",
+        "-35.280304,149.124652",
+        "POINT (149.124652 -35.280304)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-3b57_zvyx.td9h",
+        "00000000-0000-0000-4E6D-C69C7BEC6079",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Theatre_AP04",
+        "-35.281509,149.130366",
+        "POINT (149.130366 -35.281509)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-ut74_u85z.wssj",
+        "00000000-0000-0000-86D0-8484D124AF2A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR_On_The_Grind",
+        "-35.393219,149.068568",
+        "POINT (149.068568 -35.393219)",
+        "indoor",
+        null, "108"
+      ],
+      [
+        "row-4i67.zxpi-aiay",
+        "00000000-0000-0000-4419-5C32FC493B3A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP01-2",
+        "-35.270804,149.131772",
+        "POINT (149.131772 -35.270804)",
+        "outdoor-mesh",
+        null, "52"
+      ],
+      [
+        "row-8ggb.jezk~s3cj",
+        "00000000-0000-0000-F38A-F5B06AFC75CB",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "LANY_AP02-2",
+        "-35.457382,149.093174",
+        "POINT (149.093174 -35.457382)",
+        "outdoor-mesh",
+        null, "102"
+      ],
+      [
+        "row-9hxm_c8ek_cun9",
+        "00000000-0000-0000-F02D-BBD49BC77656",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP09",
+        "-35.236144,149.067561",
+        "POINT (149.067561 -35.236144)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-a3js-usxd-d2xt",
+        "00000000-0000-0000-ADB1-99ADC0C6D27C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP10-1",
+        "-35.249675,149.141062",
+        "POINT (149.141062 -35.249675)",
+        "outdoor-mesh",
+        null, "71"
+      ],
+      [
+        "row-vgbf-k4tn.sayd",
+        "00000000-0000-0000-1540-B08456A5C944",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP03",
+        "-35.248271,149.133611",
+        "POINT (149.133611 -35.248271)",
+        "outdoor",
+        null, "28"
+      ],
+      [
+        "row-3mkh_m6tt-82ss",
+        "00000000-0000-0000-69BF-5A5B0F15D553",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "AMAR_AP02",
+        "-35.165389,149.130628",
+        "POINT (149.130628 -35.165389)",
+        "outdoor",
+        null, "54"
+      ],
+      [
+        "row-mfjy~sj7d-rask",
+        "00000000-0000-0000-B64B-90299D647C8F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP06-1",
+        "-35.184943,149.138447",
+        "POINT (149.138447 -35.184943)",
+        "outdoor-mesh",
+        null, "89"
+      ],
+      [
+        "row-2iaw~zf95-4ghr",
+        "00000000-0000-0000-7370-DC280FC319AC",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP07",
+        "-35.312085,149.145714",
+        "POINT (149.145714 -35.312085)",
+        "outdoor",
+        null, "27"
+      ],
+      [
+        "row-nub5_crc2.kr38",
+        "00000000-0000-0000-8035-1EB151DD7872",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP02",
+        "-35.347397,149.084523",
+        "POINT (149.084523 -35.347397)",
+        "outdoor",
+        null, "33"
+      ],
+      [
+        "row-9ze4_85g7_5f6i",
+        "00000000-0000-0000-CBBA-53DEFB280A60",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "HAWK_AP01-1",
+        "-35.243727,149.04337",
+        "POINT (149.04337 -35.243727)",
+        "outdoor-mesh",
+        null, "25"
+      ],
+      [
+        "row-jtz6.auee_tsqk",
+        "00000000-0000-0000-1F57-9909AE1B9D9A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_ART_AP02",
+        "-35.235986,149.06807",
+        "POINT (149.06807 -35.235986)",
+        "indoor",
+        null, "32"
+      ],
+      [
+        "row-4ij9_ic5x-mcru",
+        "00000000-0000-0000-7990-6F6CC8B35A3A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR_Smoque",
+        "-35.279464,149.130718",
+        "POINT (149.130718 -35.279464)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-256i.bpw4-5yfx",
+        "00000000-0000-0000-995D-65E2368600AB",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP11-1",
+        "-35.278977,149.125787",
+        "POINT (149.125787 -35.278977)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-fxv2.nvjh_ejm2",
+        "00000000-0000-0000-CAF4-30CBF8DB588D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "JAMI_AP01-2",
+        "-35.252164,149.070486",
+        "POINT (149.070486 -35.252164)",
+        "outdoor-mesh",
+        null, "76"
+      ],
+      [
+        "row-2z3w.xzi8_r8ty",
+        "00000000-0000-0000-D84F-8192B2EB0C86",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP04-2",
+        "-35.239883,149.069631",
+        "POINT (149.069631 -35.239883)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-3cuq~tx53.f6mi",
+        "00000000-0000-0000-A24A-144E1AF2F775",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WANN_AP02-1",
+        "-35.3905983226,149.084662022",
+        "POINT (149.084662022 -35.3905983226)",
+        "outdoor-mesh",
+        null, "104"
+      ],
+      [
+        "row-ame4_hahj.nbim",
+        "00000000-0000-0000-1671-68697E1383BD",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP05",
+        "-35.184661,149.137555",
+        "POINT (149.137555 -35.184661)",
+        "outdoor",
+        null, "89"
+      ],
+      [
+        "row-xrs2~zubr~rw45",
+        "00000000-0000-0000-3FED-F89946187553",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CS-meessushi",
+        "-35.320206,149.133418",
+        "POINT (149.133418 -35.320206)",
+        "indoor",
+        null, "30"
+      ],
+      [
+        "row-h3nu.xemb~833h",
+        "00000000-0000-0000-B350-6E3589302641",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CS-greasemonkey",
+        "-35.278020,149.134902",
+        "POINT (149.134902 -35.27802)",
+        "indoor",
+        null, "52"
+      ],
+      [
+        "row-3mri_uaiu.y42f",
+        "00000000-0000-0000-5F41-652A6F125451",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP06",
+        "-35.277033,149.127889",
+        "POINT (149.127889 -35.277033)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-jxrv_spa2.b7if",
+        "00000000-0000-0000-3C7C-479A15E0667F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP04-1",
+        "-35.249399,149.135665",
+        "POINT (149.135665 -35.249399)",
+        "outdoor-mesh",
+        null, "71"
+      ],
+      [
+        "row-fsu5-4ps3.zffy",
+        "00000000-0000-0000-D6DF-7D469AB68C8E",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP11",
+        "-35.319182,149.1311",
+        "POINT (149.1311 -35.319182)",
+        "indoor",
+        null, "72"
+      ],
+      [
+        "row-9g5j-atuu-ybw2",
+        "00000000-0000-0000-3749-CA2BC873EFC5",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP07",
+        "-35.278240,149.126829",
+        "POINT (149.126829 -35.27824)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-uu72.382z-h799",
+        "00000000-0000-0000-A30E-6ECEBF1D7A70",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "SCCTUGG_AP08",
+        "-35.415702,149.063963",
+        "POINT (149.063963 -35.415702)",
+        "indoor",
+        null, "101"
+      ],
+      [
+        "row-qfu4~568s-uud2",
+        "00000000-0000-0000-AFB1-9D0E62306F62",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP06",
+        "-35.343076,149.085896",
+        "POINT (149.085896 -35.343076)",
+        "outdoor",
+        null, "33"
+      ],
+      [
+        "row-nxxt-y8dg_8u39",
+        "00000000-0000-0000-9691-0C5525404862",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_ART_AP01",
+        "-35.235701,149.068014",
+        "POINT (149.068014 -35.235701)",
+        "indoor",
+        null, "32"
+      ],
+      [
+        "row-bxad~dr8c_9cai",
+        "00000000-0000-0000-C38B-95C7AB6D8C10",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP13-1",
+        "-35.347922,149.088274",
+        "POINT (149.088274 -35.347922)",
+        "outdoor-mesh",
+        null, "33"
+      ],
+      [
+        "row-25n8_79kz.ekjd",
+        "00000000-0000-0000-AE6E-490AA62B1490",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WANN_AP02",
+        "-35.390206214,149.086250393",
+        "POINT (149.086250393 -35.390206214)",
+        "outdoor",
+        null, "104"
+      ],
+      [
+        "row-iwzg~ad4m_hvc9",
+        "00000000-0000-0000-06E2-FE3A59C65B69",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP03-1",
+        "-35.346280,149.084388",
+        "POINT (149.084388 -35.34628)",
+        "outdoor-mesh",
+        null, "33"
+      ],
+      [
+        "row-k894-a2s9~p2hf",
+        "00000000-0000-0000-3C38-50B0EA8F431D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP05",
+        "-35.415660,149.06779",
+        "POINT (149.06779 -35.41566)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-yp6w-7646_yd5w",
+        "00000000-0000-0000-17D3-6D089D96A385",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP05",
+        "-35.240923,149.067188",
+        "POINT (149.067188 -35.240923)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-iqrt-zde3-bpv3",
+        "00000000-0000-0000-AF3C-F15B599CB901",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP04-1",
+        "-35.275798,149.128858",
+        "POINT (149.128858 -35.275798)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-353t.vhuj~amvz",
+        "00000000-0000-0000-B9F1-76011330360F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP07",
+        "-35.185232,149.140194",
+        "POINT (149.140194 -35.185232)",
+        "outdoor",
+        null, "89"
+      ],
+      [
+        "row-6x4a~ce4m~q7ni",
+        "00000000-0000-0000-F545-FC18866E2BEB",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-IN_AP02",
+        "-35.277859,149.127163",
+        "POINT (149.127163 -35.277859)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-itbn.8irw-nb9x",
+        "00000000-0000-0000-9B80-B2E79716D511",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "Lutons_Properties_Tuggeranong",
+        "-35.416496,149.068606",
+        "POINT (149.068606 -35.416496)",
+        "indoor",
+        null, "101"
+      ],
+      [
+        "row-epiv.wm87.jtq7",
+        "00000000-0000-0000-23AA-12CB6F62302B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "ERIN_AP01-1",
+        "-35.403038,149.098637",
+        "POINT (149.098637 -35.403038)",
+        "outdoor-mesh",
+        null, "104"
+      ],
+      [
+        "row-6wbc-crqq-63jn",
+        "00000000-0000-0000-A30C-E9F5B7925ADC",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP08-1",
+        "-35.237943,149.067258",
+        "POINT (149.067258 -35.237943)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-yhp6-h3vn~czjp",
+        "00000000-0000-0000-33A4-46919583A5F6",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP09-2",
+        "-35.315043,149.141037",
+        "POINT (149.141037 -35.315043)",
+        "outdoor-mesh",
+        null, "27"
+      ],
+      [
+        "row-yxti.yxy8~i7ip",
+        "00000000-0000-0000-A519-43DD76D2F848",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP01-2",
+        "-35.251597,149.133859",
+        "POINT (149.133859 -35.251597)",
+        "outdoor-mesh",
+        null, "71"
+      ],
+      [
+        "row-sxgc.54fd~x93a",
+        "00000000-0000-0000-CB19-BA04934E28F8",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP04-1",
+        "-35.239861,149.06858",
+        "POINT (149.06858 -35.239861)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-xrm3.jnmy.pe79",
+        "00000000-0000-0000-D1F7-41737EBF1375",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "ANBG_AP03",
+        "-35.277293,149.11018",
+        "POINT (149.11018 -35.277293)",
+        "outdoor",
+        null, null],
+      [
+        "row-djey~6ei9-2m3y",
+        "00000000-0000-0000-6387-5020900AFCA4",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KALE_AP02-1",
+        "-35.219936,149.103359",
+        "POINT (149.103359 -35.219936)",
+        "outdoor-mesh",
+        null, "4"
+      ],
+      [
+        "row-wa6p_srf4-ygme",
+        "00000000-0000-0000-E1D1-CBA070895EF8",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP10",
+        "-35.315907,149.14225",
+        "POINT (149.14225 -35.315907)",
+        "outdoor",
+        null, "27"
+      ],
+      [
+        "row-qzuw~ccrc.czqz",
+        "00000000-0000-0000-8F68-67223D72BA26",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-IN_AP01",
+        "-35.277868,149.127339",
+        "POINT (149.127339 -35.277868)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-aga5-r3k2_e2jx",
+        "00000000-0000-0000-8A2A-042CECEDA7C0",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_STAD_AP06",
+        "-35.242128,149.057281",
+        "POINT (149.057281 -35.242128)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-a8rh.pkp5-cqpv",
+        "00000000-0000-0000-52CD-F01DE3EEC756",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP11",
+        "-35.344222,149.088311",
+        "POINT (149.088311 -35.344222)",
+        "outdoor",
+        null, "33"
+      ],
+      [
+        "row-kfz6-exbj~eriz",
+        "00000000-0000-0000-0BAE-69D73CD9C3E2",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "Cafe_Garema",
+        "-35.27804,149.13183",
+        "POINT (149.13183 -35.27804)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-vzgr.rgvu_sum6",
+        "00000000-0000-0000-626B-47E43AA70894",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Viizar_Cafe",
+        "-35.344941,149.085158",
+        "POINT (149.085158 -35.344941)",
+        "indoor",
+        null, "33"
+      ],
+      [
+        "row-pvau.zeb8-kxmk",
+        "00000000-0000-0000-C34E-11A0FCECF860",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KAMB_AP01",
+        "-35.3801471,149.0581947",
+        "POINT (149.0581947 -35.3801471)",
+        "outdoor",
+        null, "108"
+      ],
+      [
+        "row-sj5i.qviz-zu7a",
+        "00000000-0000-0000-BBE8-C4AAC8EC53DB",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR_Merchant_Deli_Cafe",
+        "-35.311542,149.145912",
+        "POINT (149.145912 -35.311542)",
+        "indoor",
+        null, "27"
+      ],
+      [
+        "row-x5ux-b9jp.euc2",
+        "00000000-0000-0000-8D0B-9F265073D8EC",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-IN_AP04",
+        "-35.277868,149.127339",
+        "POINT (149.127339 -35.277868)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-jtqh-hxwx-q8iy",
+        "00000000-0000-0000-842C-1639A9EA1AAE",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "1MooreSt-L4-AP08",
+        "-35.277868,149.127339",
+        "POINT (149.127339 -35.277868)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-i7v6-6ts7~pb6f",
+        "00000000-0000-0000-66DE-30F6FFD66E4A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP13-2",
+        "-35.236273,149.070852",
+        "POINT (149.070852 -35.236273)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-yfvj~vm6v-4irg",
+        "00000000-0000-0000-6808-42CA25C145A5",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP10",
+        "-35.189093,149.143508",
+        "POINT (149.143508 -35.189093)",
+        "outdoor",
+        null, "89"
+      ],
+      [
+        "row-znbb.teve-e6x2",
+        "00000000-0000-0000-635F-5303E043ECE9",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP08-1",
+        "-35.278234,149.132794",
+        "POINT (149.132794 -35.278234)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-p4nf.x52w-bpq8",
+        "00000000-0000-0000-E368-683AE75F2F7A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "Floriade-FL05",
+        "-35.290289,149.132541",
+        "POINT (149.132541 -35.290289)",
+        "outdoor",
+        null, "111"
+      ],
+      [
+        "row-7wid~ec86.kts5",
+        "00000000-0000-0000-3AE9-83373FCA694D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_BUDA_AP08",
+        "-35.232966,149.146274",
+        "POINT (149.146274 -35.232966)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-mw4w_wn3v~g2u6",
+        "00000000-0000-0000-0113-405D42D50D3F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP25",
+        "-35.26973,149.13203",
+        "POINT (149.13203 -35.26973)",
+        "outdoor",
+        null, "52"
+      ],
+      [
+        "row-6cse-m6vd~ta4j",
+        "00000000-0000-0000-7FA3-694657B06977",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP19",
+        "-35.423330,149.073674",
+        "POINT (149.073674 -35.42333)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-888s_m2pf~cwj7",
+        "00000000-0000-0000-59D7-F6A451875056",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "LANY_AP01",
+        "-35.456686,149.090903",
+        "POINT (149.090903 -35.456686)",
+        "outdoor",
+        null, "92"
+      ],
+      [
+        "row-s64h_4965~47vm",
+        "00000000-0000-0000-DCF4-9130D45F40CF",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Chong_Co_Thai",
+        "-35.346435,149.085002",
+        "POINT (149.085002 -35.346435)",
+        "indoor",
+        null, "33"
+      ],
+      [
+        "row-nu6k~ta5r-ba4n",
+        "00000000-0000-0000-B62A-F65E76E978D5",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP05-1",
+        "-35.184757,149.136635",
+        "POINT (149.136635 -35.184757)",
+        "outdoor-mesh",
+        null, "89"
+      ],
+      [
+        "row-nrt7~i5nj-jmaq",
+        "00000000-0000-0000-DCDB-D691D113D856",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_COOR_AP20",
+        "-35.232531,149.14697",
+        "POINT (149.14697 -35.232531)",
+        "outdoor",
+        null, "28"
+      ],
+      [
+        "row-gjrr-k75d-4sg3",
+        "00000000-0000-0000-37F8-2136594ADC63",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP04-1",
+        "-35.416227,149.06997",
+        "POINT (149.06997 -35.416227)",
+        "outdoor-mesh",
+        null, "101"
+      ],
+      [
+        "row-da4d.5ap9~t2hy",
+        "00000000-0000-0000-D7A1-9242FC2B7853",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-HVLCK_AP06",
+        "-35.273702,149.129162",
+        "POINT (149.129162 -35.273702)",
+        "indoor",
+        null, "24"
+      ],
+      [
+        "row-fitv.upq7.thy5",
+        "00000000-0000-0000-6667-FE3F929BB16D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "ANBG_AP06",
+        "-35.277320,149.110295",
+        "POINT (149.110295 -35.27732)",
+        "indoor",
+        null, null],
+      [
+        "row-kt62-f89y-p3kd",
+        "00000000-0000-0000-A9E3-A3F29687B657",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP07-2",
+        "-35.238153,149.070219",
+        "POINT (149.070219 -35.238153)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-nfti~gfqj.ts8d",
+        "00000000-0000-0000-F880-E3EF57AEC084",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP13-1",
+        "-35.279868,149.126668",
+        "POINT (149.126668 -35.279868)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-qasd.4it5-n4ka",
+        "00000000-0000-0000-CEC8-4EA74BB290B5",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_ART_AP03",
+        "-35.235873,149.068127",
+        "POINT (149.068127 -35.235873)",
+        "indoor",
+        null, "32"
+      ],
+      [
+        "row-fw2f.b7gr~cbmt",
+        "00000000-0000-0000-525C-A39E73A05B75",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP14",
+        "-35.281020,149.134291",
+        "POINT (149.134291 -35.28102)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-4g24-bx4p-qm5r",
+        "00000000-0000-0000-A71D-96FCD3E184A4",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "STRO_AP01",
+        "-35.320032,149.025652",
+        "POINT (149.025652 -35.320032)",
+        "outdoor",
+        null, null],
+      [
+        "row-dcre-67an~pamm",
+        "00000000-0000-0000-5C79-5872D4911B1B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "Axis_Hairdressing",
+        "-35.272960,149.133233",
+        "POINT (149.133233 -35.27296)",
+        "indoor",
+        null, "52"
+      ],
+      [
+        "row-m9aa.fnch.ucaq",
+        "00000000-0000-0000-251E-79722CECC7D5",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP01",
+        "-35.272670,149.131481",
+        "POINT (149.131481 -35.27267)",
+        "outdoor",
+        null, "52"
+      ],
+      [
+        "row-uiyn.3yws.h4a6",
+        "00000000-0000-0000-87C2-8FCA7849AC10",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP04",
+        "-35.310903,149.144911",
+        "POINT (149.144911 -35.310903)",
+        "outdoor",
+        null, "27"
+      ],
+      [
+        "row-zj76~mbx6_jrug",
+        "00000000-0000-0000-95B5-D727F45AAAEC",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MAWS_AP02-2",
+        "-35.366233,149.094284",
+        "POINT (149.094284 -35.366233)",
+        "outdoor-mesh",
+        null, "70"
+      ],
+      [
+        "row-27xd-ukjj-t9kk",
+        "00000000-0000-0000-B7D2-D85394E739CE",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP06-1",
+        "-35.277010,149.128634",
+        "POINT (149.128634 -35.27701)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-j6tk~bk5k.6xsr",
+        "00000000-0000-0000-FC03-2559105C9EFC",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-HVLCK_AP05",
+        "-35.273702,149.129162",
+        "POINT (149.129162 -35.273702)",
+        "indoor",
+        null, "24"
+      ],
+      [
+        "row-xwhu-7fn2~4c8d",
+        "00000000-0000-0000-58D0-2911D13CC874",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_CONF_AP12",
+        "-35.233051,149.146618",
+        "POINT (149.146618 -35.233051)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-uffn_zirg_wbgs",
+        "00000000-0000-0000-9FF2-D59B164F29BC",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP12",
+        "-35.319500,149.131473",
+        "POINT (149.131473 -35.3195)",
+        "indoor",
+        null, "72"
+      ],
+      [
+        "row-vpwn.8b5y.2fhs",
+        "00000000-0000-0000-A415-49C608570226",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP12",
+        "-35.248407,149.147924",
+        "POINT (149.147924 -35.248407)",
+        "outdoor",
+        null, "71"
+      ],
+      [
+        "row-95wp-75k7-6rxe",
+        "00000000-0000-0000-3C7C-31BF9A81DC16",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP05",
+        "-35.310553,149.147712",
+        "POINT (149.147712 -35.310553)",
+        "outdoor",
+        null, "27"
+      ],
+      [
+        "row-ai45~sy23~vdzk",
+        "00000000-0000-0000-03FC-800469A2188D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP17",
+        "-35.421735,149.074041",
+        "POINT (149.074041 -35.421735)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-f7pc-acmi~yjqi",
+        "00000000-0000-0000-5913-9AE4AC28B732",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP08-1",
+        "-35.413979,149.065034",
+        "POINT (149.065034 -35.413979)",
+        "outdoor-mesh",
+        null, "101"
+      ],
+      [
+        "row-xtpx-ssxb.hsd3",
+        "00000000-0000-0000-744D-96059788F4D7",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "Curlewis_Administration",
+        "-35.321443,149.095961",
+        "POINT (149.095961 -35.321443)",
+        "indoor",
+        null, "80"
+      ],
+      [
+        "row-jygg_yi5q_y43w",
+        "00000000-0000-0000-0F72-EE31F6FF92F3",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP11",
+        "-35.188472,149.140753",
+        "POINT (149.140753 -35.188472)",
+        "outdoor",
+        null, "89"
+      ],
+      [
+        "row-i5sb~byba~eytm",
+        "00000000-0000-0000-441E-75CFCA091225",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP18",
+        "-35.283786,149.124548",
+        "POINT (149.124548 -35.283786)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-kzqy.4b2t-rrbw",
+        "00000000-0000-0000-A1D8-E580C93E0E47",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "ANBG_AP01",
+        "-35.277690,149.109726",
+        "POINT (149.109726 -35.27769)",
+        "outdoor",
+        null, null],
+      [
+        "row-8f7m.kwgc.va4q",
+        "00000000-0000-0000-E01F-4086EC9493F6",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-HVLCK_AP02",
+        "-35.273702,149.129162",
+        "POINT (149.129162 -35.273702)",
+        "indoor",
+        null, "24"
+      ],
+      [
+        "row-r9cn-w7tq.kcg2",
+        "00000000-0000-0000-A89A-55D49A1B8702",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP09-1",
+        "-35.314908,149.141386",
+        "POINT (149.141386 -35.314908)",
+        "outdoor-mesh",
+        null, "27"
+      ],
+      [
+        "row-d7mu.rram.ye9a",
+        "00000000-0000-0000-0E01-8D2DD025BC5C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP02-1",
+        "-35.274914,149.131126",
+        "POINT (149.131126 -35.274914)",
+        "outdoor-mesh",
+        null, "52"
+      ],
+      [
+        "row-b7yq-d43x~g9qc",
+        "00000000-0000-0000-BA07-1C54A3F0FF6C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP19-1",
+        "-35.422549,149.074276",
+        "POINT (149.074276 -35.422549)",
+        "outdoor-mesh",
+        null, "101"
+      ],
+      [
+        "row-s7z9_3yzr~3qu3",
+        "00000000-0000-0000-B0A4-B9BA05848973",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP06-2",
+        "-35.250711,149.137834",
+        "POINT (149.137834 -35.250711)",
+        "outdoor-mesh",
+        null, "71"
+      ],
+      [
+        "row-kjky.ix6n.pmcr",
+        "00000000-0000-0000-92BF-3AC97F222A86",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "HAWK_AP01",
+        "-35.243934,149.04394",
+        "POINT (149.04394 -35.243934)",
+        "outdoor",
+        null, "25"
+      ],
+      [
+        "row-e2ki_g7c5~buxb",
+        "00000000-0000-0000-C453-3EA6C4C54B39",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "1MooreSt-L4-AP07",
+        "-35.277868,149.127339",
+        "POINT (149.127339 -35.277868)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-dviz-9qgd-wkit",
+        "00000000-0000-0000-8B49-8D7D28DCC565",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP06-1",
+        "-35.239158,149.068746",
+        "POINT (149.068746 -35.239158)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-97rs~5es5~nqpj",
+        "00000000-0000-0000-ABBD-8B8E0FE0F253",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-HVLCK_AP15",
+        "-35.273702,149.129162",
+        "POINT (149.129162 -35.273702)",
+        "indoor",
+        null, "24"
+      ],
+      [
+        "row-k8nw_dfe7.a52m",
+        "00000000-0000-0000-C3AD-FE40111AA87D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP21",
+        "-35.284125,149.123678",
+        "POINT (149.123678 -35.284125)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-bv28~yti3-rfmm",
+        "00000000-0000-0000-4498-0E2E543C5DBA",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP05-2",
+        "-35.274099,149.132538",
+        "POINT (149.132538 -35.274099)",
+        "outdoor-mesh",
+        null, "52"
+      ],
+      [
+        "row-ak3g.u3j4.rjqq",
+        "00000000-0000-0000-168C-6227DCA22855",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP08",
+        "-35.185565,149.142129",
+        "POINT (149.142129 -35.185565)",
+        "outdoor",
+        null, "89"
+      ],
+      [
+        "row-xtzj-gsjk-zr6f",
+        "00000000-0000-0000-2518-C3B16BE6412C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_COOR_AP23",
+        "-35.232526,149.147173",
+        "POINT (149.147173 -35.232526)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-t4ux.swf4-ua2f",
+        "00000000-0000-0000-F1EC-73FB9E854211",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP05",
+        "-35.321119,149.134649",
+        "POINT (149.134649 -35.321119)",
+        "outdoor",
+        null, "30"
+      ],
+      [
+        "row-j8uy-j5qt-f9ru",
+        "00000000-0000-0000-2D65-0B51D782363F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP23",
+        "-35.275092,149.134432",
+        "POINT (149.134432 -35.275092)",
+        "outdoor",
+        null, "52"
+      ],
+      [
+        "row-g9sq-ves5_7xdm",
+        "00000000-0000-0000-8392-DF1F601DE60A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP07",
+        "-35.414535,149.066935",
+        "POINT (149.066935 -35.414535)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-g7c2~83j4.76dz",
+        "00000000-0000-0000-230B-374906727DB1",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP21",
+        "-35.414915,149.062937",
+        "POINT (149.062937 -35.414915)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-stxh-c5mw-eag6",
+        "00000000-0000-0000-15D3-CFD8100495F6",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_BUDA_AP03",
+        "-35.233159,149.145707",
+        "POINT (149.145707 -35.233159)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-nydb-99xb.6s4e",
+        "00000000-0000-0000-380A-6F21E43C7331",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP06",
+        "-35.27855,149.13176",
+        "POINT (149.13176 -35.27855)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-yfxb-qzun-zqmv",
+        "00000000-0000-0000-58FE-4EAD315AF725",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP02",
+        "-35.274077,149.131254",
+        "POINT (149.131254 -35.274077)",
+        "outdoor",
+        null, "52"
+      ],
+      [
+        "row-tvzi.mprk.yqnr",
+        "00000000-0000-0000-9310-1F02271E4314",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MAWS_AP02",
+        "-35.366701,149.094331",
+        "POINT (149.094331 -35.366701)",
+        "outdoor",
+        null, "70"
+      ],
+      [
+        "row-2i72_nyw3.pnqv",
+        "00000000-0000-0000-4B6E-95C64AD2F8A5",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Mingle_Espresso_Bar",
+        "-35.282223,149.132191",
+        "POINT (149.132191 -35.282223)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-4xde-bb4v~9brd",
+        "00000000-0000-0000-C696-6B46F4F6D57F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP11-1",
+        "-35.343699,149.087709",
+        "POINT (149.087709 -35.343699)",
+        "outdoor-mesh",
+        null, "33"
+      ],
+      [
+        "row-gy54_2ipp_s56i",
+        "00000000-0000-0000-71F1-0ED8BDEF39CC",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP10-2",
+        "-35.339390,149.091185",
+        "POINT (149.091185 -35.33939)",
+        "outdoor-mesh",
+        null, "33"
+      ],
+      [
+        "row-kzq8-vwit.j9h4",
+        "00000000-0000-0000-B7C9-365A28A9FAF1",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-NCM_BELC_USEDCARS",
+        "-35.240195,149.060304",
+        "POINT (149.060304 -35.240195)",
+        "indoor",
+        null, "32"
+      ],
+      [
+        "row-ituu.k4yn-ic97",
+        "00000000-0000-0000-5008-D1027E753C3C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WEST_AP01",
+        "-35.342476,149.053246",
+        "POINT (149.053246 -35.342476)",
+        "outdoor",
+        null, "85"
+      ],
+      [
+        "row-7dc4~dx5i_nfb2",
+        "00000000-0000-0000-8814-2B2AA1F8AA72",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "STRO_AP02",
+        "-35.320038,149.025547",
+        "POINT (149.025547 -35.320038)",
+        "outdoor",
+        null, null],
+      [
+        "row-6a5x~eug3~h77a",
+        "00000000-0000-0000-758A-B5166DED236B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP06-1",
+        "-35.249627,149.137252",
+        "POINT (149.137252 -35.249627)",
+        "outdoor-mesh",
+        null, "71"
+      ],
+      [
+        "row-qags~epdn_eunw",
+        "00000000-0000-0000-A0D7-7CDD89FE9334",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP04-1",
+        "-35.275798,149.128858",
+        "POINT (149.128858 -35.275798)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-33jv-ci33-n975",
+        "00000000-0000-0000-E992-09179F26CA43",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-HVLCK_AP04",
+        "-35.273702,149.129162",
+        "POINT (149.129162 -35.273702)",
+        "indoor",
+        null, "24"
+      ],
+      [
+        "row-mv4k~bztu_ghif",
+        "00000000-0000-0000-3F35-EFA9801432B4",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP04",
+        "-35.184410,149.135286",
+        "POINT (149.135286 -35.18441)",
+        "outdoor",
+        null, "89"
+      ],
+      [
+        "row-8f6f-pceq_txqm",
+        "00000000-0000-0000-F828-2B0995A8445B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "Floriade-FL02",
+        "-35.287945,149.130067",
+        "POINT (149.130067 -35.287945)",
+        "outdoor",
+        null, "111"
+      ],
+      [
+        "row-jup9.22dp_jw5p",
+        "00000000-0000-0000-A9A0-9E3A0886392B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "LANY_AP02-1",
+        "-35.457831,149.093545",
+        "POINT (149.093545 -35.457831)",
+        "outdoor-mesh",
+        null, "102"
+      ],
+      [
+        "row-mkf8.cmp6~xcvq",
+        "00000000-0000-0000-21A4-7192AD8E0AA0",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP01-1",
+        "-35.252755,149.133078",
+        "POINT (149.133078 -35.252755)",
+        "outdoor-mesh",
+        null, "28"
+      ],
+      [
+        "row-b5gr_heur.dpm8",
+        "00000000-0000-0000-FC3B-2E64F22E2A4D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP10",
+        "-35.417918,149.069273",
+        "POINT (149.069273 -35.417918)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-dmar~q7cp-vj8u",
+        "00000000-0000-0000-6318-1BFC6F6E1893",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP06-1",
+        "-35.277947,149.13066",
+        "POINT (149.13066 -35.277947)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-3z85~7zkq-tg87",
+        "00000000-0000-0000-DAFC-499254C06D8D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_COOR_AP22",
+        "-35.232426,149.147178",
+        "POINT (149.147178 -35.232426)",
+        "outdoor",
+        null, "28"
+      ],
+      [
+        "row-3jz6~9r2i_ea2s",
+        "00000000-0000-0000-54FD-5DEB29DD4A16",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP02",
+        "-35.248749,149.133762",
+        "POINT (149.133762 -35.248749)",
+        "outdoor",
+        null, "28"
+      ],
+      [
+        "row-94am-ns2w~hp66",
+        "00000000-0000-0000-0047-F2123EC8A4A7",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP09",
+        "-35.415671,149.064739",
+        "POINT (149.064739 -35.415671)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-7i6y_pxjm.cmwg",
+        "00000000-0000-0000-2527-44B2073E99A0",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP14",
+        "-35.341223,149.087951",
+        "POINT (149.087951 -35.341223)",
+        "outdoor",
+        null, "33"
+      ],
+      [
+        "row-iajp~65ub~69z5",
+        "00000000-0000-0000-A965-06B37A2B7525",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP10",
+        "-35.250336,149.140812",
+        "POINT (149.140812 -35.250336)",
+        "outdoor",
+        null, "71"
+      ],
+      [
+        "row-rbmy-fipv.a8iu",
+        "00000000-0000-0000-9F61-1053ACF206B9",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP02",
+        "-35.239009,149.063451",
+        "POINT (149.063451 -35.239009)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-ib2a.jw3h~yqz2",
+        "00000000-0000-0000-B70C-D620A0065643",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Maple&Clove",
+        "-35.312656,149.133486",
+        "POINT (149.133486 -35.312656)",
+        "indoor",
+        null, "62"
+      ],
+      [
+        "row-ijpc-ybs6-5a33",
+        "00000000-0000-0000-341E-6871B1A4B63E",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "SCCTUGG_AP01",
+        "-35.415501,149.06373",
+        "POINT (149.06373 -35.415501)",
+        "indoor",
+        null, "101"
+      ],
+      [
+        "row-dpsv~gc8g.z2cj",
+        "00000000-0000-0000-2819-4465F5C721BF",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP03-2",
+        "-35.320159,149.133563",
+        "POINT (149.133563 -35.320159)",
+        "outdoor-mesh",
+        null, "30"
+      ],
+      [
+        "row-wu9p-g48u_tyvz",
+        "00000000-0000-0000-4121-FEF64DEA048D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "ANBG_AP04",
+        "-35.274365,149.106947",
+        "POINT (149.106947 -35.274365)",
+        "outdoor",
+        null, null],
+      [
+        "row-qiua_2eh6~cdj3",
+        "00000000-0000-0000-953C-3785F5432FA0",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP09",
+        "-35.340258,149.082751",
+        "POINT (149.082751 -35.340258)",
+        "outdoor",
+        null, "33"
+      ],
+      [
+        "row-ntnq_8cr2~9zkg",
+        "00000000-0000-0000-1D5E-C88D2C1FE295",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP05",
+        "-35.251142,149.136477",
+        "POINT (149.136477 -35.251142)",
+        "outdoor",
+        null, "71"
+      ],
+      [
+        "row-pyrz.c5aw~r673",
+        "00000000-0000-0000-73C7-03E7FE231B78",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Torrens_Take-away",
+        "-35.373047,149.087372",
+        "POINT (149.087372 -35.373047)",
+        "indoor",
+        null, "41"
+      ],
+      [
+        "row-5zpd.dj9v-vq53",
+        "00000000-0000-0000-29A0-DBC4B1FEABD0",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_BUDA_AP09",
+        "-35.233165,149.146269",
+        "POINT (149.146269 -35.233165)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-gpav-q4nz.f3t8",
+        "00000000-0000-0000-1F00-5D07353602EC",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_COOR_AP18",
+        "-35.232794,149.146896",
+        "POINT (149.146896 -35.232794)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-pqsr.zqvk-zahi",
+        "00000000-0000-0000-031E-D734E32669CD",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP09-1",
+        "-35.414815,149.065612",
+        "POINT (149.065612 -35.414815)",
+        "outdoor-mesh",
+        null, "101"
+      ],
+      [
+        "row-hhfv-pigw_ibxt",
+        "00000000-0000-0000-CE4A-C54D06720F2A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP03-2",
+        "-35.246142,149.134472",
+        "POINT (149.134472 -35.246142)",
+        "outdoor-mesh",
+        null, "97"
+      ],
+      [
+        "row-q92c-hbaf_w8jg",
+        "00000000-0000-0000-5BE2-4C993563D0F2",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-HVLCK_AP14",
+        "-35.273702,149.129162",
+        "POINT (149.129162 -35.273702)",
+        "indoor",
+        null, "24"
+      ],
+      [
+        "row-766a.pbzy-3888",
+        "00000000-0000-0000-C634-4DA8B7059709",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "Floriade-FL04-MAP02",
+        "-35.288012,149.13164",
+        "POINT (149.13164 -35.288012)",
+        "outdoor",
+        null, "111"
+      ],
+      [
+        "row-pii7.nueg_wis3",
+        "00000000-0000-0000-3C1D-95AB40BE613D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP13-2",
+        "-35.347264,149.088743",
+        "POINT (149.088743 -35.347264)",
+        "outdoor-mesh",
+        null, "33"
+      ],
+      [
+        "row-84f7.ezwv_cvaw",
+        "00000000-0000-0000-5202-F1EBD5A3AC6C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "1MooreSt-L4-AP01",
+        "-35.277868,149.127339",
+        "POINT (149.127339 -35.277868)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-5we9~6yyp-p22y",
+        "00000000-0000-0000-9D76-1B4B2284037C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Beautify_Macquarie",
+        "-35.253126,149.073647",
+        "POINT (149.073647 -35.253126)",
+        "indoor",
+        null, "76"
+      ],
+      [
+        "row-7ja4-ddgr.k8bi",
+        "00000000-0000-0000-3471-10D82A99FDAE",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP08",
+        "-35.237208,149.067521",
+        "POINT (149.067521 -35.237208)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-x6gw.9wq6-inzb",
+        "00000000-0000-0000-0E5D-51FD6B288809",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP05-1",
+        "-35.322211,149.134434",
+        "POINT (149.134434 -35.322211)",
+        "outdoor-mesh",
+        null, "30"
+      ],
+      [
+        "row-7s55~yrh4.2jf4",
+        "00000000-0000-0000-B341-BEAE9BCD339B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP01-1",
+        "-35.319650,149.131847",
+        "POINT (149.131847 -35.31965)",
+        "outdoor-mesh",
+        null, "72"
+      ],
+      [
+        "row-22tu.r557.hw5u",
+        "00000000-0000-0000-BA59-4C672A4C3F54",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP03",
+        "-35.271039,149.133034",
+        "POINT (149.133034 -35.271039)",
+        "outdoor",
+        null, "52"
+      ],
+      [
+        "row-e5a5_ac3a-8m8k",
+        "00000000-0000-0000-3B28-65BBEC2B79E5",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP09-1",
+        "-35.279393,149.128211",
+        "POINT (149.128211 -35.279393)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-9m49-fhkx-mim9",
+        "00000000-0000-0000-77D4-9849561C885C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Polit_Bar",
+        "-35.320309,149.133466",
+        "POINT (149.133466 -35.320309)",
+        "indoor",
+        null, "30"
+      ],
+      [
+        "row-wts8~gx7q_33dt",
+        "00000000-0000-0000-053E-C1FD5ABDED42",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR_TwoBefore10_Cafe",
+        "-35.256408,149.078689",
+        "POINT (149.078689 -35.256408)",
+        "indoor",
+        null, "14"
+      ],
+      [
+        "row-zjpw.sfc5~mvq6",
+        "00000000-0000-0000-D9ED-5984DFFE4354",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_BUDA_AP05",
+        "-35.232963,149.145993",
+        "POINT (149.145993 -35.232963)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-3hw8~4ihm-neuc",
+        "00000000-0000-0000-CC74-24D2EA469C06",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP15",
+        "-35.284416,149.136508",
+        "POINT (149.136508 -35.284416)",
+        "outdoor",
+        null, "57"
+      ],
+      [
+        "row-bh3q-mrvs.9a9p",
+        "00000000-0000-0000-D58C-C8E9605AA219",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP11",
+        "-35.236452,149.070232",
+        "POINT (149.070232 -35.236452)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-5ztt_e2f4_yij7",
+        "00000000-0000-0000-BFF8-8DF186E4E74B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP09",
+        "-35.250141,149.13969",
+        "POINT (149.13969 -35.250141)",
+        "outdoor",
+        null, "71"
+      ],
+      [
+        "row-b6dh_6d7v.rw3e",
+        "00000000-0000-0000-BAC8-EFB418B25186",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP13",
+        "-35.419925,149.072475",
+        "POINT (149.072475 -35.419925)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-wufp.vn5f-d92s",
+        "00000000-0000-0000-34BF-5FD4BB086453",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Theatre_AP08",
+        "-35.281520,149.130536",
+        "POINT (149.130536 -35.28152)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-agp7~fvk8.vijv",
+        "00000000-0000-0000-DEB9-D37230D9ED6A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP02",
+        "-35.184418,149.128491",
+        "POINT (149.128491 -35.184418)",
+        "outdoor",
+        null, "89"
+      ],
+      [
+        "row-shyk-6h6e~mfbs",
+        "00000000-0000-0000-6413-08B6D5FE65E4",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP12",
+        "-35.278948,149.127617",
+        "POINT (149.127617 -35.278948)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-ky7w_rg5g.n8nc",
+        "00000000-0000-0000-5639-A8C5A4AD611E",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP18",
+        "-35.419322,149.070379",
+        "POINT (149.070379 -35.419322)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-erfz~9ucs.vsbu",
+        "00000000-0000-0000-1280-64DBA53F98F7",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP08",
+        "-35.249216,149.139546",
+        "POINT (149.139546 -35.249216)",
+        "outdoor",
+        null, "71"
+      ],
+      [
+        "row-6tdi-ydnj~bf9z",
+        "00000000-0000-0000-C65E-712B6FCB6480",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Brindabella_Orthodontics",
+        "-35.347189,149.084093",
+        "POINT (149.084093 -35.347189)",
+        "indoor",
+        null, "33"
+      ],
+      [
+        "row-sdq8_k9k3.3ys6",
+        "00000000-0000-0000-7A08-DB79DF4FB4B6",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Battery_Factory_Fyshwick",
+        "-35.327575,149.175393",
+        "POINT (149.175393 -35.327575)",
+        "indoor",
+        null, "64"
+      ],
+      [
+        "row-q7yn.wvf5-dakc",
+        "00000000-0000-0000-CBDA-ED8DB3E590AE",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP01-2",
+        "-35.319300,149.132504",
+        "POINT (149.132504 -35.3193)",
+        "outdoor-mesh",
+        null, "72"
+      ],
+      [
+        "row-c6vu~vp3i_y7gn",
+        "00000000-0000-0000-66BF-97781D5F78DF",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP13",
+        "-35.281791,149.132009",
+        "POINT (149.132009 -35.281791)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-zu5r~yajc_7z53",
+        "00000000-0000-0000-84F7-E23271655FAE",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Marko_Body_Repairs",
+        "-35.211694,149.138797",
+        "POINT (149.138797 -35.211694)",
+        "indoor",
+        null, "93"
+      ],
+      [
+        "row-cgcf~pxtq~jrxe",
+        "00000000-0000-0000-D665-4619B3D31C19",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-HVLCK_AP12",
+        "-35.273702,149.129162",
+        "POINT (149.129162 -35.273702)",
+        "indoor",
+        null, "24"
+      ],
+      [
+        "row-2g3t.ehs5~rjre",
+        "00000000-0000-0000-A4B4-98DAC4AB72C7",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP12",
+        "-35.418341,149.066337",
+        "POINT (149.066337 -35.418341)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-i9v8~jmfq~ukfe",
+        "00000000-0000-0000-E399-D27DA19D613B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BRUC_AP01-1",
+        "-35.249140,149.100899",
+        "POINT (149.100899 -35.24914)",
+        "outdoor-mesh",
+        null, "90"
+      ],
+      [
+        "row-y8hy.nm9c_q3tu",
+        "00000000-0000-0000-B194-9D90F0E29244",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP04",
+        "-35.250270,149.135371",
+        "POINT (149.135371 -35.25027)",
+        "outdoor",
+        null, "71"
+      ],
+      [
+        "row-xqyf.mt72.fcep",
+        "00000000-0000-0000-8113-27F43A6AEFB1",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP02-2",
+        "-35.184676,149.129433",
+        "POINT (149.129433 -35.184676)",
+        "outdoor-mesh",
+        null, "89"
+      ],
+      [
+        "row-6j9j.8wz4_53e6",
+        "00000000-0000-0000-44F2-DAF9BFF2D9B6",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP15",
+        "-35.421351,149.072738",
+        "POINT (149.072738 -35.421351)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-ee6r-5hva~fb6k",
+        "00000000-0000-0000-5AE9-6324509B35C7",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "LANY_AP01-2",
+        "-35.456381,149.092083",
+        "POINT (149.092083 -35.456381)",
+        "outdoor-mesh",
+        null, "102"
+      ],
+      [
+        "row-zhxp_u9zc.tgga",
+        "00000000-0000-0000-1D77-8529B68F7F98",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP10",
+        "-35.341283,149.089169",
+        "POINT (149.089169 -35.341283)",
+        "outdoor",
+        null, "33"
+      ],
+      [
+        "row-7469-s4sv~52wr",
+        "00000000-0000-0000-E7F1-C069B1C30F74",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP03-1",
+        "-35.310821,149.147036",
+        "POINT (149.147036 -35.310821)",
+        "outdoor-mesh",
+        null, "27"
+      ],
+      [
+        "row-j5mp.w5z2-r58f",
+        "00000000-0000-0000-48EB-CD955C55CDC9",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-NCM_BELC_Showroom",
+        "-35.2400508,149.060637",
+        "POINT (149.060637 -35.2400508)",
+        "indoor",
+        null, "32"
+      ],
+      [
+        "row-gxsa~z38f~55jy",
+        "00000000-0000-0000-88A2-09A5A1ED5EC0",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Bertram_Ellis",
+        "-35.355249,149.041639",
+        "POINT (149.041639 -35.355249)",
+        "indoor",
+        null, "63"
+      ],
+      [
+        "row-r4yx_nufd.ym2f",
+        "00000000-0000-0000-9235-6749915DBD57",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP22",
+        "-35.278608,149.130047",
+        "POINT (149.130047 -35.278608)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-uv87.q43v-ertf",
+        "00000000-0000-0000-573D-C8CC605C765A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP10-1",
+        "-35.236107,149.068519",
+        "POINT (149.068519 -35.236107)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-557u.hmau.3xar",
+        "00000000-0000-0000-FEED-E3D0607FC081",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP10",
+        "-35.279918,149.131111",
+        "POINT (149.131111 -35.279918)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-s5v4_apas.rm5t",
+        "00000000-0000-0000-26DD-9E9AD7417591",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP08",
+        "-35.342429,149.083885",
+        "POINT (149.083885 -35.342429)",
+        "outdoor",
+        null, "33"
+      ],
+      [
+        "row-g58w~gx7w.7vyd",
+        "00000000-0000-0000-93F1-AF21A8E4E2AD",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-HVLCK_AP11",
+        "-35.273702,149.129162",
+        "POINT (149.129162 -35.273702)",
+        "indoor",
+        null, "24"
+      ],
+      [
+        "row-s8ck~93cr-ih5t",
+        "00000000-0000-0000-0FD1-55904150D4C7",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "SCCTUGG_AP03",
+        "-35.415658,149.063841",
+        "POINT (149.063841 -35.415658)",
+        "indoor",
+        null, "101"
+      ],
+      [
+        "row-dc3n~7ycx~zx2h",
+        "00000000-0000-0000-FA2B-F29C0D29BECB",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP14-1",
+        "-35.280928,149.125753",
+        "POINT (149.125753 -35.280928)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-iaym_ieux.6vgs",
+        "00000000-0000-0000-5525-1541038E6D7A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP02",
+        "-35.312725,149.143639",
+        "POINT (149.143639 -35.312725)",
+        "outdoor",
+        null, "27"
+      ],
+      [
+        "row-jia7~kuff~tz5a",
+        "00000000-0000-0000-8746-EEB0042DBC49",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP10",
+        "-35.236168,149.06923",
+        "POINT (149.06923 -35.236168)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-bwdv_5dyr~4gjp",
+        "00000000-0000-0000-3A23-2B26C743C6EA",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP16",
+        "-35.240104,149.059742",
+        "POINT (149.059742 -35.240104)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-8szp~e69u_fw85",
+        "00000000-0000-0000-0E9A-13678730D40F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP08-1",
+        "-35.249711,149.139038",
+        "POINT (149.139038 -35.249711)",
+        "outdoor-mesh",
+        null, "71"
+      ],
+      [
+        "row-7guv_h75w-fjqa",
+        "00000000-0000-0000-417B-C1EB2322500E",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CHIS_AP02-1",
+        "-35.414630,149.126925",
+        "POINT (149.126925 -35.41463)",
+        "outdoor-mesh",
+        null, "1"
+      ],
+      [
+        "row-n886-pkfa~eazc",
+        "00000000-0000-0000-86C4-514E9F1061BB",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP13-1",
+        "-35.281144,149.131406",
+        "POINT (149.131406 -35.281144)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-4eiu.k8np-mwrd",
+        "00000000-0000-0000-0521-6DF74D3C24AB",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP10-1",
+        "-35.340467,149.090241",
+        "POINT (149.090241 -35.340467)",
+        "outdoor-mesh",
+        null, "33"
+      ],
+      [
+        "row-k2br.aft6.97ke",
+        "00000000-0000-0000-5827-C745E7B1191E",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR_Indoor_Rockclimbing",
+        "-35.210882,149.142084",
+        "POINT (149.142084 -35.210882)",
+        "indoor",
+        null, "93"
+      ],
+      [
+        "row-rhtb~h5eu-dzrj",
+        "00000000-0000-0000-8D06-4B9A22D9F1E7",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_COOR_AP25",
+        "-35.232669,149.147287",
+        "POINT (149.147287 -35.232669)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-m77q_pxwa~teft",
+        "00000000-0000-0000-441E-840AB2BFF4AF",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP10-1",
+        "-35.188487,149.142126",
+        "POINT (149.142126 -35.188487)",
+        "outdoor-mesh",
+        null, "89"
+      ],
+      [
+        "row-r89x_8ztu.x3cv",
+        "00000000-0000-0000-56A8-D3F7BF33AC11",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MAWS_AP01",
+        "-35.364540,149.095113",
+        "POINT (149.095113 -35.36454)",
+        "outdoor",
+        null, "70"
+      ],
+      [
+        "row-zzri.peqm-xwrb",
+        "00000000-0000-0000-99E4-F5D0C992DA21",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CS-onestopautoandtyres",
+        "-35.337883,149.181825",
+        "POINT (149.181825 -35.337883)",
+        "indoor",
+        null, "64"
+      ],
+      [
+        "row-mktq_pefk~qbk3",
+        "00000000-0000-0000-99BA-4699C346DEBC",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "Floriade-FL04-RAP",
+        "-35.289394,149.130726",
+        "POINT (149.130726 -35.289394)",
+        "outdoor",
+        null, "111"
+      ],
+      [
+        "row-5xya_v2s8_yuuw",
+        "00000000-0000-0000-E372-E351B796778F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP22",
+        "-35.282087,149.125158",
+        "POINT (149.125158 -35.282087)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-7faz~ebq5_ika7",
+        "00000000-0000-0000-DC19-9F382E919AC6",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP01",
+        "-35.184043,149.126519",
+        "POINT (149.126519 -35.184043)",
+        "outdoor",
+        null, "89"
+      ],
+      [
+        "row-2h7c-f3eg.awx8",
+        "00000000-0000-0000-9B2D-B514EE8CE328",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP15",
+        "-35.238059,149.072059",
+        "POINT (149.072059 -35.238059)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-85xq.28bf.e8es",
+        "00000000-0000-0000-EC8E-778BA010D470",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP11-2",
+        "-35.344940,149.088011",
+        "POINT (149.088011 -35.34494)",
+        "outdoor-mesh",
+        null, "33"
+      ],
+      [
+        "row-yzxb_i5u7.dgmr",
+        "00000000-0000-0000-256B-6DF2A778E4C2",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WEST_AP01-1",
+        "-35.341875,149.053425",
+        "POINT (149.053425 -35.341875)",
+        "outdoor-mesh",
+        null, "85"
+      ],
+      [
+        "row-z7yd.fe6i_ad8h",
+        "00000000-0000-0000-E26F-C1D7F8A0DBD3",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP02-2",
+        "-35.275717,149.131176",
+        "POINT (149.131176 -35.275717)",
+        "outdoor-mesh",
+        null, "52"
+      ],
+      [
+        "row-ma9i-wnrp~9g24",
+        "00000000-0000-0000-49AF-75ED3DAC743D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR_Capital_Coast_Surgery",
+        "-35.320560,149.097346",
+        "POINT (149.097346 -35.32056)",
+        "indoor",
+        null, "80"
+      ],
+      [
+        "row-3qpq~j8fc_7vix",
+        "00000000-0000-0000-B6A9-C48E7D83B56F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_BUDA_AP06",
+        "-35.233156,149.145986",
+        "POINT (149.145986 -35.233156)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-rz69~2dm6~4qt3",
+        "00000000-0000-0000-662E-582F73F6C8E0",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-HVLCK_AP07",
+        "-35.273702,149.129162",
+        "POINT (149.129162 -35.273702)",
+        "indoor",
+        null, "24"
+      ],
+      [
+        "row-jjtd_hq6r.tkvz",
+        "00000000-0000-0000-D3AE-4DD98138E6B6",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "AMAR_AP01-2",
+        "-35.165089,149.131793",
+        "POINT (149.131793 -35.165089)",
+        "outdoor-mesh",
+        null, "54"
+      ],
+      [
+        "row-sapz.6xpt_5zbf",
+        "00000000-0000-0000-A821-37B32A2C2CD4",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP09-1",
+        "-35.280069,149.132221",
+        "POINT (149.132221 -35.280069)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-rj7x_asim.gj3f",
+        "00000000-0000-0000-7CA8-7C5479474941",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP04",
+        "-35.417082,149.068814",
+        "POINT (149.068814 -35.417082)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-haaz.8g8q_e9j6",
+        "00000000-0000-0000-49AE-3A9329FB1114",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_COOR_AP17",
+        "-35.232728,149.146837",
+        "POINT (149.146837 -35.232728)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-68pk_s53c-frmk",
+        "00000000-0000-0000-8BCF-019B602E7247",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_COOR_AP24",
+        "-35.232540,149.147166",
+        "POINT (149.147166 -35.23254)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-8rzd~x28g-4gmv",
+        "00000000-0000-0000-8670-3B820E99A2D4",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-IN_AP06",
+        "-35.277868,149.127339",
+        "POINT (149.127339 -35.277868)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-phbr_cvu6-gyt6",
+        "00000000-0000-0000-4567-1096BCA08418",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP02-1",
+        "-35.249399,149.134214",
+        "POINT (149.134214 -35.249399)",
+        "outdoor-mesh",
+        null, "71"
+      ],
+      [
+        "row-turm-c7ui~kvt5",
+        "00000000-0000-0000-5FDA-E7162C517CC9",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP01-1",
+        "-35.271746,149.131602",
+        "POINT (149.131602 -35.271746)",
+        "outdoor-mesh",
+        null, "52"
+      ],
+      [
+        "row-gt2h_r67i-yzfm",
+        "00000000-0000-0000-F813-0F7425DCC193",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Discount_Tobacconist",
+        "-35.416572,149.066203",
+        "POINT (149.066203 -35.416572)",
+        "indoor",
+        null, "101"
+      ],
+      [
+        "row-zrpx~rp83-6vdd",
+        "00000000-0000-0000-A0D0-64AB38D9B2B2",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP14-2",
+        "-35.237579,149.071941",
+        "POINT (149.071941 -35.237579)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-j6ti.wmaq_q9aw",
+        "00000000-0000-0000-45C4-4539E1A2DCA3",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP13-1",
+        "-35.419311,149.072123",
+        "POINT (149.072123 -35.419311)",
+        "outdoor-mesh",
+        null, "101"
+      ],
+      [
+        "row-uteu_dnx8_hk76",
+        "00000000-0000-0000-1F08-90C97784ABEE",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "ANBG_AP04-1",
+        "-35.274863,149.107988",
+        "POINT (149.107988 -35.274863)",
+        "outdoor-mesh",
+        null, null],
+      [
+        "row-dt5c_3ep6.65t8",
+        "00000000-0000-0000-840B-EF423D357E38",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "ANBG_AP05",
+        "-35.277802,149.109568",
+        "POINT (149.109568 -35.277802)",
+        "indoor",
+        null, null],
+      [
+        "row-sb4y_ed6y-g7cd",
+        "00000000-0000-0000-6314-850547502397",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP07",
+        "-35.341376,149.085979",
+        "POINT (149.085979 -35.341376)",
+        "outdoor",
+        null, "33"
+      ],
+      [
+        "row-nqq7_6xfa.q7vk",
+        "00000000-0000-0000-9CD2-7A1F1B774660",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP08-2",
+        "-35.278992,149.13315",
+        "POINT (149.13315 -35.278992)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-9de6.fwqd.izzw",
+        "00000000-0000-0000-2E39-E9C51CF0547E",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP01",
+        "-35.348113,149.084951",
+        "POINT (149.084951 -35.348113)",
+        "outdoor",
+        null, "33"
+      ],
+      [
+        "row-6ycu.c9un.gthd",
+        "00000000-0000-0000-30C3-E11962947C61",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "Floriade-FL03",
+        "-35.288187,149.129411",
+        "POINT (149.129411 -35.288187)",
+        "outdoor",
+        null, "111"
+      ],
+      [
+        "row-ruey_huzu_26n6",
+        "00000000-0000-0000-06A9-08F594B7EE2E",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP06",
+        "-35.185072,149.139331",
+        "POINT (149.139331 -35.185072)",
+        "outdoor",
+        null, "89"
+      ],
+      [
+        "row-utbr.akjg~4t5b",
+        "00000000-0000-0000-DF2B-FCCE58130F4F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP07",
+        "-35.278772,149.131477",
+        "POINT (149.131477 -35.278772)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-8ayq.5m4k_2sg5",
+        "00000000-0000-0000-0AF4-859DA6AEE7B9",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP02-2",
+        "-35.249959,149.133566",
+        "POINT (149.133566 -35.249959)",
+        "outdoor-mesh",
+        null, "28"
+      ],
+      [
+        "row-bkpb-mzs6.wtxq",
+        "00000000-0000-0000-E5BE-695AC17DBD37",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP01",
+        "-35.253761,149.13352",
+        "POINT (149.13352 -35.253761)",
+        "outdoor",
+        null, "71"
+      ],
+      [
+        "row-2mq2-t8c2-pwse",
+        "00000000-0000-0000-9C18-2E83D069EC8C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KAMB_AP02-1",
+        "-35.3794951,149.0576657",
+        "POINT (149.0576657 -35.3794951)",
+        "outdoor-mesh",
+        null, "108"
+      ],
+      [
+        "row-saxd~et87~nu2m",
+        "00000000-0000-0000-4D16-097E2A14DAFE",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CHIS_AP01-1",
+        "-35.413660,149.129001",
+        "POINT (149.129001 -35.41366)",
+        "outdoor-mesh",
+        null, "1"
+      ],
+      [
+        "row-gxf8~fw8q-dd3b",
+        "00000000-0000-0000-AD4E-40ACB4E7B11A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP17-1",
+        "-35.421968,149.073466",
+        "POINT (149.073466 -35.421968)",
+        "outdoor-mesh",
+        null, "101"
+      ],
+      [
+        "row-8f2b_5shq~5mi7",
+        "00000000-0000-0000-59D5-305C216C0A92",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP17",
+        "-35.283401,149.125927",
+        "POINT (149.125927 -35.283401)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-zvrv-u3bz_kabp",
+        "00000000-0000-0000-BF2D-CCE05559F9F6",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP05",
+        "-35.273277,149.133061",
+        "POINT (149.133061 -35.273277)",
+        "outdoor",
+        null, "52"
+      ],
+      [
+        "row-my89_3kui-k8wn",
+        "00000000-0000-0000-B4B0-0E3D91212AFE",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_COOR_AP16",
+        "-35.232670,149.146775",
+        "POINT (149.146775 -35.23267)",
+        "outdoor",
+        null, "28"
+      ],
+      [
+        "row-8eyu.8z4p~znwh",
+        "00000000-0000-0000-7D7C-681488A4AFE0",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP01-1",
+        "-35.418868,149.064905",
+        "POINT (149.064905 -35.418868)",
+        "outdoor-mesh",
+        null, "101"
+      ],
+      [
+        "row-hjfw.5wba~z8ex",
+        "00000000-0000-0000-F36E-14C6630CE382",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP21",
+        "-35.280702,149.132849",
+        "POINT (149.132849 -35.280702)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-k3j5-qiw8~hi3v",
+        "00000000-0000-0000-EDE1-CE2F08903BFA",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-HVLCK_AP03",
+        "-35.273702,149.129162",
+        "POINT (149.129162 -35.273702)",
+        "indoor",
+        null, "24"
+      ],
+      [
+        "row-6wuf-hne7_sctf",
+        "00000000-0000-0000-974C-CAEE85FF1D75",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP03",
+        "-35.185286,149.132129",
+        "POINT (149.132129 -35.185286)",
+        "outdoor",
+        null, "89"
+      ],
+      [
+        "row-qnch~8m85.sdsk",
+        "00000000-0000-0000-C1EB-2621D23B4421",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP02",
+        "-35.276940,149.12949",
+        "POINT (149.12949 -35.27694)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-rksp~fuum.k7n3",
+        "00000000-0000-0000-8891-898DF216AF7D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_CONF_AP11",
+        "-35.232924,149.146668",
+        "POINT (149.146668 -35.232924)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-f4hu-w67v_y3yb",
+        "00000000-0000-0000-AA33-21F86CF72EF5",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "ERIN_AP02",
+        "-35.404187,149.099081",
+        "POINT (149.099081 -35.404187)",
+        "outdoor",
+        null, "104"
+      ],
+      [
+        "row-spqm.xuwe~imq4",
+        "00000000-0000-0000-2797-36E07B9AC2CF",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP02-2",
+        "-35.239350,149.064561",
+        "POINT (149.064561 -35.23935)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-vjsk~ww8g.58as",
+        "00000000-0000-0000-535D-9034179E3081",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CS-victor.trineas",
+        "-35.185433,149.135575",
+        "POINT (149.135575 -35.185433)",
+        "indoor",
+        null, "89"
+      ],
+      [
+        "row-pfx3.qmrk~kmaf",
+        "00000000-0000-0000-9AAB-8BC509A508D1",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CHIS_AP02-2",
+        "-35.414497,149.128868",
+        "POINT (149.128868 -35.414497)",
+        "outdoor-mesh",
+        null, "1"
+      ],
+      [
+        "row-sy87~29be.ad8a",
+        "00000000-0000-0000-7B02-98C3A1B8017A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP09-1",
+        "-35.235997,149.066514",
+        "POINT (149.066514 -35.235997)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-q9ba~wcpk_ytc6",
+        "00000000-0000-0000-7F02-34F2F1806F82",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP07-2",
+        "-35.278203,149.131841",
+        "POINT (149.131841 -35.278203)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-2hd3~hkfq~62f4",
+        "00000000-0000-0000-F3F0-B0561D776482",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP06-2",
+        "-35.278395,149.129913",
+        "POINT (149.129913 -35.278395)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-v3nh~e82m-t858",
+        "00000000-0000-0000-B3B8-91459D0FD8BE",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP05",
+        "-35.344070,149.085262",
+        "POINT (149.085262 -35.34407)",
+        "outdoor",
+        null, "33"
+      ],
+      [
+        "row-tw59-rrty-j897",
+        "00000000-0000-0000-67B0-E96FBB1E0F74",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP12",
+        "-35.188178,149.13902",
+        "POINT (149.13902 -35.188178)",
+        "outdoor",
+        null, "89"
+      ],
+      [
+        "row-wk2h_g4mq_aud2",
+        "00000000-0000-0000-E20F-108985812224",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR_Advance_Personnel",
+        "-35.344985,149.083774",
+        "POINT (149.083774 -35.344985)",
+        "indoor",
+        null, "33"
+      ],
+      [
+        "row-jgas.gutc_mv3q",
+        "00000000-0000-0000-5F21-8466BB14A660",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP11",
+        "-35.279524,149.125607",
+        "POINT (149.125607 -35.279524)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-cpg2.w4jy-gkui",
+        "00000000-0000-0000-F003-1DA539F6AF46",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP13",
+        "-35.235769,149.069745",
+        "POINT (149.069745 -35.235769)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-av6g-6ihy~ujz2",
+        "00000000-0000-0000-E0FB-F4D71947B38D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_BUDA_AP07",
+        "-35.232789,149.145849",
+        "POINT (149.145849 -35.232789)",
+        "outdoor",
+        null, "28"
+      ],
+      [
+        "row-nt3r~u9cp_iaa5",
+        "00000000-0000-0000-81AD-B619E1268804",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Theatre_AP05",
+        "-35.281483,149.130258",
+        "POINT (149.130258 -35.281483)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-juth_4vuu~skvy",
+        "00000000-0000-0000-8DBA-33D7F527F50A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Theatre_AP01",
+        "-35.281425,149.130389",
+        "POINT (149.130389 -35.281425)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-ue3z.5sc9.ummi",
+        "00000000-0000-0000-2FFB-367B350B1197",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP02-1",
+        "-35.320450,149.13261",
+        "POINT (149.13261 -35.32045)",
+        "outdoor-mesh",
+        null, "30"
+      ],
+      [
+        "row-b2ax-i9a7.nc4i",
+        "00000000-0000-0000-862E-742DF60A1DBA",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "ERIN_AP02-1",
+        "-35.404308,149.097689",
+        "POINT (149.097689 -35.404308)",
+        "outdoor-mesh",
+        null, "104"
+      ],
+      [
+        "row-ddkk~rrdf_ygur",
+        "00000000-0000-0000-6DFA-ADA9C90CF597",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WEST_AP02-1",
+        "-35.340452,149.052371",
+        "POINT (149.052371 -35.340452)",
+        "outdoor-mesh",
+        null, "85"
+      ],
+      [
+        "row-sjsf_td42.zzfn",
+        "00000000-0000-0000-C7E3-A2C307B1F8A3",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP07-1",
+        "-35.277994,149.126316",
+        "POINT (149.126316 -35.277994)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-ppwn_u6gq_irtu",
+        "00000000-0000-0000-633F-13F7B0713C32",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Bittersweet_PtyLtd",
+        "-35.316801,149.141845",
+        "POINT (149.141845 -35.316801)",
+        "indoor",
+        null, "27"
+      ],
+      [
+        "row-ck72~cm2c_g5vb",
+        "00000000-0000-0000-6252-753045D77447",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_CONF_AP13",
+        "-35.233004,149.146794",
+        "POINT (149.146794 -35.233004)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-m8v5_p5v2_tbye",
+        "00000000-0000-0000-141A-939F5D88DE20",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CALL_AP01",
+        "-35.433522,149.113305",
+        "POINT (149.113305 -35.433522)",
+        "outdoor",
+        null, "84"
+      ],
+      [
+        "row-fhmg.ded6_8fq4",
+        "00000000-0000-0000-9B29-F969B26C627E",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP09",
+        "-35.185838,149.144053",
+        "POINT (149.144053 -35.185838)",
+        "outdoor",
+        null, "89"
+      ],
+      [
+        "row-38b5~sanj.ufv9",
+        "00000000-0000-0000-81D2-C81A952D782F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Crafty_Frog",
+        "-35.379323,149.066239",
+        "POINT (149.066239 -35.379323)",
+        "indoor",
+        null, "108"
+      ],
+      [
+        "row-6t3s.3xks~jtt8",
+        "00000000-0000-0000-9AAB-1726F7B6CB76",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP16-2",
+        "-35.283813,149.132553",
+        "POINT (149.132553 -35.283813)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-vzgv_cpqr_m4jf",
+        "00000000-0000-0000-3C60-218F444CAEFB",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "ANBG_AP02",
+        "-35.278832,149.108855",
+        "POINT (149.108855 -35.278832)",
+        "outdoor",
+        null, null],
+      [
+        "row-ryna-mazg~mne2",
+        "00000000-0000-0000-8100-7BCD15006237",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP09-2",
+        "-35.280193,149.127441",
+        "POINT (149.127441 -35.280193)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-724t-gsnn_r2xc",
+        "00000000-0000-0000-8997-8F780EAC50A0",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Double_Shot_Deakin",
+        "-35.313786,149.10708",
+        "POINT (149.10708 -35.313786)",
+        "indoor",
+        null, "80"
+      ],
+      [
+        "row-wmuv.cu5y~ds96",
+        "00000000-0000-0000-A371-7E6B7A952CAC",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP01",
+        "-35.320141,149.131279",
+        "POINT (149.131279 -35.320141)",
+        "outdoor",
+        null, "30"
+      ],
+      [
+        "row-u4zg.uz5p.weva",
+        "00000000-0000-0000-D016-91EDE8FC6EB3",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "LANY_AP02",
+        "-35.458217,149.094172",
+        "POINT (149.094172 -35.458217)",
+        "outdoor",
+        null, "102"
+      ],
+      [
+        "row-8bb7_ku4d_w396",
+        "00000000-0000-0000-723C-5F7067FD4D75",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Theatre_AP02",
+        "-35.281480,149.130419",
+        "POINT (149.130419 -35.28148)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-rbse~c8cv-zpjx",
+        "00000000-0000-0000-F0F2-C1620C5F70B1",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP21-1",
+        "-35.280594,149.132397",
+        "POINT (149.132397 -35.280594)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-cqqn~rs7z~f8wx",
+        "00000000-0000-0000-0883-3A3B892A612E",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CHIS_AP01",
+        "-35.412810,149.128373",
+        "POINT (149.128373 -35.41281)",
+        "outdoor",
+        null, "1"
+      ],
+      [
+        "row-99mj-ti93-jbya",
+        "00000000-0000-0000-EF70-6372BA01A145",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-HVLCK_AP08",
+        "-35.273702,149.129162",
+        "POINT (149.129162 -35.273702)",
+        "indoor",
+        null, "24"
+      ],
+      [
+        "row-a2dh~idtn-ff36",
+        "00000000-0000-0000-C11B-FC1707E43DB6",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "AMAR_AP02-1",
+        "-35.164789,149.130725",
+        "POINT (149.130725 -35.164789)",
+        "outdoor-mesh",
+        null, "54"
+      ],
+      [
+        "row-cqjn_56vi~z4t4",
+        "00000000-0000-0000-E0E3-4E0F5533B11A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP05-1",
+        "-35.272661,149.132803",
+        "POINT (149.132803 -35.272661)",
+        "outdoor-mesh",
+        null, "52"
+      ],
+      [
+        "row-iuue-y75g_crdi",
+        "00000000-0000-0000-4725-DB45CAC2D1CF",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP10",
+        "-35.319523,149.131313",
+        "POINT (149.131313 -35.319523)",
+        "indoor",
+        null, "72"
+      ],
+      [
+        "row-t58p~fcaj-id34",
+        "00000000-0000-0000-0C57-49E5AACF8A79",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP07-1",
+        "-35.238724,149.070402",
+        "POINT (149.070402 -35.238724)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-s8am_g64q.5siq",
+        "00000000-0000-0000-7734-5F9D58D24129",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP15-2",
+        "-35.282942,149.136064",
+        "POINT (149.136064 -35.282942)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-6zvs~v8bx_2p4j",
+        "00000000-0000-0000-3525-FD200DAF774F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP12",
+        "-35.237096,149.070857",
+        "POINT (149.070857 -35.237096)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-a8na_6ee8.rnk7",
+        "00000000-0000-0000-17E9-AC81D640D03A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "ERIN_AP02-2",
+        "-35.403628,149.096877",
+        "POINT (149.096877 -35.403628)",
+        "outdoor-mesh",
+        null, "104"
+      ],
+      [
+        "row-k2ap~65nd-z9ex",
+        "00000000-0000-0000-C1F1-0589F53F6D0B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP08-2",
+        "-35.414450,149.065306",
+        "POINT (149.065306 -35.41445)",
+        "outdoor-mesh",
+        null, "101"
+      ],
+      [
+        "row-yxx4-pyms.y3pf",
+        "00000000-0000-0000-7C08-38D925D5FD79",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP07",
+        "-35.249269,149.138052",
+        "POINT (149.138052 -35.249269)",
+        "outdoor",
+        null, "71"
+      ],
+      [
+        "row-qksf.xich-wg5r",
+        "00000000-0000-0000-E619-D2ADB84975B3",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "Floriade-FL04-MAP01",
+        "-35.288866,149.131144",
+        "POINT (149.131144 -35.288866)",
+        "outdoor",
+        null, "111"
+      ],
+      [
+        "row-9tb5~afdm~6cvw",
+        "00000000-0000-0000-E800-9F4F71B4DBD7",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP26",
+        "-35.26994,149.13194",
+        "POINT (149.13194 -35.26994)",
+        "outdoor",
+        null, "52"
+      ],
+      [
+        "row-kpyw.u359-tvjr",
+        "00000000-0000-0000-E011-E1C319233147",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_CONF_AP15",
+        "-35.233049,149.146723",
+        "POINT (149.146723 -35.233049)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-dvdi_idan_h4vi",
+        "00000000-0000-0000-A041-5A762EF70AE3",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP22-2",
+        "-35.278657,149.130717",
+        "POINT (149.130717 -35.278657)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-d834~j29e.hr9w",
+        "00000000-0000-0000-CC6C-A839E4173920",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP20",
+        "-35.284697,149.12518",
+        "POINT (149.12518 -35.284697)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-qvph.hrd2-424x",
+        "00000000-0000-0000-8AEE-F3E28AE23BA3",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP07-1",
+        "-35.413943,149.067723",
+        "POINT (149.067723 -35.413943)",
+        "outdoor-mesh",
+        null, "101"
+      ],
+      [
+        "row-m4gr.yi25.d4iz",
+        "00000000-0000-0000-7A04-541E9ABD0F03",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP18-1",
+        "-35.282997,149.124349",
+        "POINT (149.124349 -35.282997)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-cjwb-6ryz~54a3",
+        "00000000-0000-0000-1A64-E9EE4A68B4EC",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "YWCAL3_AP01",
+        "-35.276049,149.129105",
+        "POINT (149.129105 -35.276049)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-e8tu_97m2_aiwd",
+        "00000000-0000-0000-8ECF-CB691120312D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CALL_AP01-2",
+        "-35.434702,149.113744",
+        "POINT (149.113744 -35.434702)",
+        "outdoor-mesh",
+        null, "84"
+      ],
+      [
+        "row-3nb5~2en3-sfwe",
+        "00000000-0000-0000-12A9-EBB633717A6A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP06",
+        "-35.311594,149.145416",
+        "POINT (149.145416 -35.311594)",
+        "outdoor",
+        null, "27"
+      ],
+      [
+        "row-z2ng-nn3b~pec4",
+        "00000000-0000-0000-1BDA-48135E6C77AE",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Burning_Log_Megastore",
+        "-35.327408,149.178015",
+        "POINT (149.178015 -35.327408)",
+        "indoor",
+        null, "64"
+      ],
+      [
+        "row-pbuk~q2r7-mfh2",
+        "00000000-0000-0000-0FB5-D312F8C486C8",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_BUDA_AP04",
+        "-35.232780,149.146072",
+        "POINT (149.146072 -35.23278)",
+        "outdoor",
+        null, "28"
+      ],
+      [
+        "row-4qm6~8qyn_cpf4",
+        "00000000-0000-0000-5C9D-298ABAD2A4E6",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CS-M16ARTSPACE1-2",
+        "-35.324700,149.142777",
+        "POINT (149.142777 -35.3247)",
+        "indoor",
+        null, "30"
+      ],
+      [
+        "row-k94j-4shw~w6jw",
+        "00000000-0000-0000-5F43-22FB7094C309",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "ERIN_AP01",
+        "-35.402328,149.098552",
+        "POINT (149.098552 -35.402328)",
+        "outdoor",
+        null, "104"
+      ],
+      [
+        "row-i79c.c95f~ypsx",
+        "00000000-0000-0000-A260-3F1164BC8745",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP20",
+        "-35.418658,149.06785",
+        "POINT (149.06785 -35.418658)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-hnbt_s89z.bcbq",
+        "00000000-0000-0000-A335-8A1C3AF565C3",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "Audiotech_Tugg",
+        "-35.420966,149.069124",
+        "POINT (149.069124 -35.420966)",
+        "indoor",
+        null, "101"
+      ],
+      [
+        "row-ik3j_yxhf~yf6t",
+        "00000000-0000-0000-2B30-F24F70E2708E",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "1MooreSt-L4-AP03",
+        "-35.277868,149.127339",
+        "POINT (149.127339 -35.277868)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-k4qj.hbyu.3fnb",
+        "00000000-0000-0000-6B5B-40D0777E3DB1",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP14-2",
+        "-35.281387,149.126423",
+        "POINT (149.126423 -35.281387)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-9yew.xgki-tr4f",
+        "00000000-0000-0000-ED0E-A0C4F81135ED",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "YWCAL3_AP04",
+        "-35.275983,149.128994",
+        "POINT (149.128994 -35.275983)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-rvm6~vwth~3tku",
+        "00000000-0000-0000-3C0E-26765A4CEF76",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP04",
+        "-35.276681,149.132339",
+        "POINT (149.132339 -35.276681)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-bt8j~wsik-yx89",
+        "00000000-0000-0000-0C5C-D146FDB84F7D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP03-1",
+        "-35.320697,149.133712",
+        "POINT (149.133712 -35.320697)",
+        "outdoor-mesh",
+        null, "30"
+      ],
+      [
+        "row-53ts~fihw_68fp",
+        "00000000-0000-0000-9CF7-342B61DBAC14",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WANN_AP02-2",
+        "-35.3907862313,149.085856803",
+        "POINT (149.085856803 -35.3907862313)",
+        "outdoor-mesh",
+        null, "104"
+      ],
+      [
+        "row-nvjx_aaw7~fsh4",
+        "00000000-0000-0000-972A-1BCD68CCC84A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP08-1",
+        "-35.276198,149.126588",
+        "POINT (149.126588 -35.276198)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-2z96~7565~mq78",
+        "00000000-0000-0000-0F43-5F9EBC53AB8C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MAWS_AP02-1",
+        "-35.366449,149.094741",
+        "POINT (149.094741 -35.366449)",
+        "outdoor-mesh",
+        null, "70"
+      ],
+      [
+        "row-wakv-bf8j-e5k9",
+        "00000000-0000-0000-15C9-9C3FB2051E1E",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Mharaja_Cuisines_Dickson",
+        "-35.251366,149.13558",
+        "POINT (149.13558 -35.251366)",
+        "indoor",
+        null, "71"
+      ],
+      [
+        "row-mayp~iu5p.xs7p",
+        "00000000-0000-0000-7163-78EA5B334DC4",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP13",
+        "-35.348060,149.08745",
+        "POINT (149.08745 -35.34806)",
+        "outdoor",
+        null, "33"
+      ],
+      [
+        "row-stkf-wcy9.keyr",
+        "00000000-0000-0000-E40D-1A433DA874DC",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_STAD_AP03",
+        "-35.242128,149.057281",
+        "POINT (149.057281 -35.242128)",
+        "indoor",
+        null, "32"
+      ],
+      [
+        "row-w823-2kgx~xu7p",
+        "00000000-0000-0000-5E87-81B96015055C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "1MooreSt-L4-AP04",
+        "-35.277868,149.127339",
+        "POINT (149.127339 -35.277868)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-unru-sqih-g8p3",
+        "00000000-0000-0000-7F9E-508153B4CFC1",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "SCCTUGG_AP06",
+        "-35.415557,149.063868",
+        "POINT (149.063868 -35.415557)",
+        "indoor",
+        null, "101"
+      ],
+      [
+        "row-f33u~wzux.2egt",
+        "00000000-0000-0000-E813-386B7CA9C2EE",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-HVLCK_AP09",
+        "-35.273702,149.129162",
+        "POINT (149.129162 -35.273702)",
+        "indoor",
+        null, "24"
+      ],
+      [
+        "row-48h3.6psc~hav4",
+        "00000000-0000-0000-C9FD-A2CCF6101F65",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP01",
+        "-35.316193,149.142378",
+        "POINT (149.142378 -35.316193)",
+        "outdoor",
+        null, "27"
+      ],
+      [
+        "row-ixiu~iy2n_ge9h",
+        "00000000-0000-0000-4AA7-DD4FDF7D54F8",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CALL_AP02",
+        "-35.435820,149.114373",
+        "POINT (149.114373 -35.43582)",
+        "outdoor",
+        null, "84"
+      ],
+      [
+        "row-uyjp-fer2~c7tb",
+        "00000000-0000-0000-316E-87E5338C75A7",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP20",
+        "-35.278530,149.138333",
+        "POINT (149.138333 -35.27853)",
+        "outdoor",
+        null, "57"
+      ],
+      [
+        "row-gqt6_c8ce.z96s",
+        "00000000-0000-0000-2F2B-51363ED7AF72",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-HVLCK_AP13",
+        "-35.273702,149.129162",
+        "POINT (149.129162 -35.273702)",
+        "indoor",
+        null, "24"
+      ],
+      [
+        "row-xiph-dd59.nuin",
+        "00000000-0000-0000-9457-258026E3308C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KIPP_AP01",
+        "-35.22115963,149.01998562",
+        "POINT (149.01998562 -35.22115963)",
+        "outdoor",
+        null, "29"
+      ],
+      [
+        "row-pssx.hihn~bujh",
+        "00000000-0000-0000-72E7-662DA0E854D1",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP09",
+        "-35.279550,149.132198",
+        "POINT (149.132198 -35.27955)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-8y2r_rsex-5upj",
+        "00000000-0000-0000-4AA7-924376C123E0",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP08",
+        "-35.319174,149.131069",
+        "POINT (149.131069 -35.319174)",
+        "outdoor",
+        null, "72"
+      ],
+      [
+        "row-ueme-ijcq-7i4v",
+        "00000000-0000-0000-DC00-60F743240747",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MAWS_AP01-1",
+        "-35.365224,149.095149",
+        "POINT (149.095149 -35.365224)",
+        "outdoor-mesh",
+        null, "70"
+      ],
+      [
+        "row-6m27.pgvy~48ue",
+        "00000000-0000-0000-CC4C-BF283C5C5C48",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP01",
+        "-35.236246,149.062316",
+        "POINT (149.062316 -35.236246)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-xsb2_b7fp-2dbj",
+        "00000000-0000-0000-C329-06CD6FEC90C6",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP06",
+        "-35.320317,149.134992",
+        "POINT (149.134992 -35.320317)",
+        "outdoor",
+        null, "30"
+      ],
+      [
+        "row-e8ka_cntw~4p2w",
+        "00000000-0000-0000-E72B-6CFDDF7B75D6",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP09",
+        "-35.314818,149.141714",
+        "POINT (149.141714 -35.314818)",
+        "outdoor",
+        null, "27"
+      ],
+      [
+        "row-uuej_cgzp_j5z5",
+        "00000000-0000-0000-CB6D-DF34B62312E4",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP14",
+        "-35.281361,149.125691",
+        "POINT (149.125691 -35.281361)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-wsei_cjcc.5w4f",
+        "00000000-0000-0000-A466-34255E08EC56",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "SCCTUGG_AP10",
+        "-35.415519,149.063946",
+        "POINT (149.063946 -35.415519)",
+        "indoor",
+        null, "101"
+      ],
+      [
+        "row-bq7v.uvuu.ct6d",
+        "00000000-0000-0000-3B83-7ADA23A9A262",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP12",
+        "-35.281427,149.133578",
+        "POINT (149.133578 -35.281427)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-fi95-6bkn~psr4",
+        "00000000-0000-0000-C4DC-EFB415D851ED",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BRUC_AP01-2",
+        "-35.248695,149.1012",
+        "POINT (149.1012 -35.248695)",
+        "outdoor-mesh",
+        null, "90"
+      ],
+      [
+        "row-xfig_km7n-zw2y",
+        "00000000-0000-0000-772A-83081940C20D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP03",
+        "-35.345440,149.084075",
+        "POINT (149.084075 -35.34544)",
+        "outdoor",
+        null, "33"
+      ],
+      [
+        "row-va75_8hv8-k2f3",
+        "00000000-0000-0000-6FD4-1905DC0A62D6",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "JAMI_AP01",
+        "-35.253732,149.071213",
+        "POINT (149.071213 -35.253732)",
+        "outdoor",
+        null, "76"
+      ],
+      [
+        "row-9r4k.c5cf.ddmz",
+        "00000000-0000-0000-E3AC-C92E0CACE85F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP04-2",
+        "-35.275095,149.132411",
+        "POINT (149.132411 -35.275095)",
+        "outdoor-mesh",
+        null, "52"
+      ],
+      [
+        "row-9ewz_yzt6.raxa",
+        "00000000-0000-0000-E6DE-DFF1035EE9E4",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP07",
+        "-35.239278,149.070484",
+        "POINT (149.070484 -35.239278)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-jq46-avbe.zjz3",
+        "00000000-0000-0000-5446-C5A68BE89C8A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "YWCAL3_AP03",
+        "-35.276016,149.129011",
+        "POINT (149.129011 -35.276016)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-c98a-zrnq_gu4d",
+        "00000000-0000-0000-5FBA-00E4E6A9375F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KALE_AP02",
+        "-35.220278,149.102261",
+        "POINT (149.102261 -35.220278)",
+        "outdoor",
+        null, "4"
+      ],
+      [
+        "row-8ytv-ivhc_bctb",
+        "00000000-0000-0000-C3E9-EAF943ACCD27",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP04",
+        "-35.275720,149.128095",
+        "POINT (149.128095 -35.27572)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-rk26.547h~wxru",
+        "00000000-0000-0000-BEB5-DFF207A83E7F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP03",
+        "-35.321340,149.133258",
+        "POINT (149.133258 -35.32134)",
+        "outdoor",
+        null, "30"
+      ],
+      [
+        "row-jzjd.euzd_xra3",
+        "00000000-0000-0000-2429-62430B92569E",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR_Canberra_Podiatry",
+        "-35.352781,149.075959",
+        "POINT (149.075959 -35.352781)",
+        "indoor",
+        null, "78"
+      ],
+      [
+        "row-wpqg_aiff-ssrb",
+        "00000000-0000-0000-67FE-D37697730488",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "1MooreSt-L4-AP02",
+        "-35.277868,149.127339",
+        "POINT (149.127339 -35.277868)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-rnff~khsv_7y6z",
+        "00000000-0000-0000-3B3B-2BB877CAB444",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_ART_AP04",
+        "-35.235924,149.068317",
+        "POINT (149.068317 -35.235924)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-umdt.s3gn-7gka",
+        "00000000-0000-0000-92D8-91818ACE615B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP14",
+        "-35.237130,149.071717",
+        "POINT (149.071717 -35.23713)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-ffh9_dpx5~p4uj",
+        "00000000-0000-0000-4390-155053300C84",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CALL_AP02-1",
+        "-35.435166,149.113951",
+        "POINT (149.113951 -35.435166)",
+        "outdoor-mesh",
+        null, "84"
+      ],
+      [
+        "row-tcrf~yixs.d4mf",
+        "00000000-0000-0000-8181-6F11DD0AD51C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_STAD_AP02",
+        "-35.242128,149.057281",
+        "POINT (149.057281 -35.242128)",
+        "indoor",
+        null, "32"
+      ],
+      [
+        "row-t4uu~rnbe~s9g2",
+        "00000000-0000-0000-428B-B9D73F6A982B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP13",
+        "-35.280394,149.126571",
+        "POINT (149.126571 -35.280394)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-4mtx_sxnw~diax",
+        "00000000-0000-0000-D612-20CFC7F15653",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_Basketball_Stadium_AP02",
+        "-35.415683,149.062958",
+        "POINT (149.062958 -35.415683)",
+        "indoor",
+        null, "101"
+      ],
+      [
+        "row-52ak_zpb2_jksy",
+        "00000000-0000-0000-3C21-E92C6511375F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP01-1",
+        "-35.236510,149.063162",
+        "POINT (149.063162 -35.23651)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-zq74~64dc_7siw",
+        "00000000-0000-0000-CAB7-AD3CCEC32B24",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "SCCTUGG_AP02",
+        "-35.415573,149.063786",
+        "POINT (149.063786 -35.415573)",
+        "indoor",
+        null, "101"
+      ],
+      [
+        "row-ddfq_atka_2mkh",
+        "00000000-0000-0000-AC7A-5DF418FF3487",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP10-1",
+        "-35.316007,149.141875",
+        "POINT (149.141875 -35.316007)",
+        "outdoor-mesh",
+        null, "27"
+      ],
+      [
+        "row-usjn_e2qg-a33x",
+        "00000000-0000-0000-14A3-FB01B582C091",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP06",
+        "-35.249965,149.137939",
+        "POINT (149.137939 -35.249965)",
+        "outdoor",
+        null, "71"
+      ],
+      [
+        "row-2f25~tbfd_z6z7",
+        "00000000-0000-0000-E835-5A0C536BEA32",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "JAMI_AP01-1",
+        "-35.253407,149.070547",
+        "POINT (149.070547 -35.253407)",
+        "outdoor-mesh",
+        null, "76"
+      ],
+      [
+        "row-prj6_bftr_9f9j",
+        "00000000-0000-0000-8116-8412816E6AB9",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP04",
+        "-35.318043,149.13309",
+        "POINT (149.13309 -35.318043)",
+        "outdoor",
+        null, "30"
+      ],
+      [
+        "row-9rsb~4x7f-k5yr",
+        "00000000-0000-0000-0F88-E4F63C9EBD0F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR_Discount_Tobacconist_Woden",
+        "-35.345617,149.086044",
+        "POINT (149.086044 -35.345617)",
+        "indoor",
+        null, "33"
+      ],
+      [
+        "row-vhci~f4af_nf6g",
+        "00000000-0000-0000-0110-8FA0FCCF1393",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-HVLCK_AP10",
+        "-35.273702,149.129162",
+        "POINT (149.129162 -35.273702)",
+        "indoor",
+        null, "24"
+      ],
+      [
+        "row-xtfc~txez-xtg2",
+        "00000000-0000-0000-F1AC-9F8BC564146D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP03",
+        "-35.418179,149.068732",
+        "POINT (149.068732 -35.418179)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-tnd2_95un_y8dv",
+        "00000000-0000-0000-682A-2CD39CECD9E3",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-HVLCK_AP01",
+        "-35.273702,149.129162",
+        "POINT (149.129162 -35.273702)",
+        "indoor",
+        null, "24"
+      ],
+      [
+        "row-s376_5w45.x59e",
+        "00000000-0000-0000-1EFD-E0457521D562",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP11",
+        "-35.317075,149.141754",
+        "POINT (149.141754 -35.317075)",
+        "outdoor",
+        null, "27"
+      ],
+      [
+        "row-rkib.t9ha_6zru",
+        "00000000-0000-0000-7932-5B129204C06C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-RUC_AP01",
+        "-35.308119,149.136488",
+        "POINT (149.136488 -35.308119)",
+        "indoor",
+        null, "62"
+      ],
+      [
+        "row-utjt~87yd_i5sk",
+        "00000000-0000-0000-F9A3-C617FE3AF04A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "YWCAL3_AP02",
+        "-35.276047,149.129049",
+        "POINT (149.129049 -35.276047)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-6exx-zswi~zazg",
+        "00000000-0000-0000-77A3-580B531D22FF",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_COOR_AP19",
+        "-35.232922,149.147015",
+        "POINT (149.147015 -35.232922)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-kvxw-nvkd_e9ij",
+        "00000000-0000-0000-3BA8-4A250AAE5CC0",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WODN_AP04",
+        "-35.344812,149.085459",
+        "POINT (149.085459 -35.344812)",
+        "outdoor",
+        null, "33"
+      ],
+      [
+        "row-adnz.xehz.wz7w",
+        "00000000-0000-0000-9DFB-ABE616DBFD3A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_COOR_AP21",
+        "-35.232639,149.147028",
+        "POINT (149.147028 -35.232639)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-k7j7~vems-fyed",
+        "00000000-0000-0000-6850-98FFC21ACD38",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "LANY_AP01-1",
+        "-35.456128,149.091576",
+        "POINT (149.091576 -35.456128)",
+        "outdoor-mesh",
+        null, "102"
+      ],
+      [
+        "row-qaz3.yn9f_khjd",
+        "00000000-0000-0000-A1B2-C24097523B4B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-RUC_AP02",
+        "-35.308119,149.136488",
+        "POINT (149.136488 -35.308119)",
+        "indoor",
+        null, "62"
+      ],
+      [
+        "row-mg9c-46mp~wpau",
+        "00000000-0000-0000-B7CE-08AAF5FAACED",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_BUDA_AP02",
+        "-35.232964,149.145707",
+        "POINT (149.145707 -35.232964)",
+        "indoor",
+        null, "28"
+      ],
+      [
+        "row-wyj5.hhvi-8iqm",
+        "00000000-0000-0000-5B26-BC831004C502",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "WANN_AP01",
+        "-35.391691619,149.086127278",
+        "POINT (149.086127278 -35.391691619)",
+        "outdoor",
+        null, "104"
+      ],
+      [
+        "row-syzu.fdum-wvir",
+        "00000000-0000-0000-82BD-690390138F94",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP02-1",
+        "-35.185456,149.128405",
+        "POINT (149.128405 -35.185456)",
+        "outdoor-mesh",
+        null, "89"
+      ],
+      [
+        "row-cn4f.rgz6_gdc9",
+        "00000000-0000-0000-1646-DDBD4B9E34FF",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP05-1",
+        "-35.415480,149.068099",
+        "POINT (149.068099 -35.41548)",
+        "outdoor-mesh",
+        null, "101"
+      ],
+      [
+        "row-j6vu-k38p~cd6t",
+        "00000000-0000-0000-96F0-525804DFB8D4",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP11",
+        "-35.248107,149.150534",
+        "POINT (149.150534 -35.248107)",
+        "outdoor",
+        null, "71"
+      ],
+      [
+        "row-sqk3-s6iz-dujj",
+        "00000000-0000-0000-783D-F67181476760",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "Floriade-FL01",
+        "-35.287142,149.130388",
+        "POINT (149.130388 -35.287142)",
+        "outdoor",
+        null, "111"
+      ],
+      [
+        "row-jgku~2hwg~2kbz",
+        "00000000-0000-0000-446F-C888BECB0671",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP13-1",
+        "-35.235989,149.070354",
+        "POINT (149.070354 -35.235989)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-3tvw-zmcn-8fc6",
+        "00000000-0000-0000-E7B3-283CF20EAF18",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP16-1",
+        "-35.282433,149.133845",
+        "POINT (149.133845 -35.282433)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-kmj3_xnjt-yzza",
+        "00000000-0000-0000-3B72-0BAC2DD0409D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-IN_AP03",
+        "-35.277727,149.127134",
+        "POINT (149.127134 -35.277727)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-kk4g_hceh.6gfb",
+        "00000000-0000-0000-7D31-B4BF37681FDF",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KING_AP08",
+        "-35.312785,149.146493",
+        "POINT (149.146493 -35.312785)",
+        "outdoor",
+        null, "27"
+      ],
+      [
+        "row-ppap~pndi~j6k5",
+        "00000000-0000-0000-EE25-44BADD570DAF",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP04",
+        "-35.240201,149.067551",
+        "POINT (149.067551 -35.240201)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-5djy.64mc~aa4t",
+        "00000000-0000-0000-DCF1-585B05B4308E",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KAMB_AP02-2",
+        "-35.3796059,149.0575295",
+        "POINT (149.0575295 -35.3796059)",
+        "outdoor-mesh",
+        null, "108"
+      ],
+      [
+        "row-rfmv~rg65-jb8e",
+        "00000000-0000-0000-3D68-EF8F379376D2",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "GUNG_AP11-1",
+        "-35.188124,149.139941",
+        "POINT (149.139941 -35.188124)",
+        "outdoor-mesh",
+        null, "89"
+      ],
+      [
+        "row-jgh7_b2i5~if36",
+        "00000000-0000-0000-2490-DC160435DB58",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "EPIC_BUDA_AP01",
+        "-35.232782,149.146308",
+        "POINT (149.146308 -35.232782)",
+        "outdoor",
+        null, "28"
+      ],
+      [
+        "row-a5m3.j836.cfjx",
+        "00000000-0000-0000-9BBC-A385EECD674B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP20-1",
+        "-35.278735,149.137401",
+        "POINT (149.137401 -35.278735)",
+        "outdoor-mesh",
+        null, "57"
+      ],
+      [
+        "row-2f3q~k4es-ybhu",
+        "00000000-0000-0000-918B-EA29333FC973",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP14-1",
+        "-35.236735,149.071375",
+        "POINT (149.071375 -35.236735)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-k7gd.z4gg_mnzf",
+        "00000000-0000-0000-2ED3-B637E57B9DF4",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Theatre_AP03",
+        "-35.281454,149.130329",
+        "POINT (149.130329 -35.281454)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-ebhq_uh4v-bgi7",
+        "00000000-0000-0000-24AB-9069C7F7A47F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP08-2",
+        "-35.277263,149.126443",
+        "POINT (149.126443 -35.277263)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-ibwb-gq4h.i57y",
+        "00000000-0000-0000-844A-7CD934999004",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP18-2",
+        "-35.282260,149.123713",
+        "POINT (149.123713 -35.28226)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-pcp4-4bp2.bx2w",
+        "00000000-0000-0000-1C2D-687A9DAD35C2",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP09",
+        "-35.319237,149.131275",
+        "POINT (149.131275 -35.319237)",
+        "indoor",
+        null, "72"
+      ],
+      [
+        "row-qv7q.wndm-aggj",
+        "00000000-0000-0000-A44E-57FCF53B04E6",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "AMAR_AP01-1",
+        "-35.164948,149.132598",
+        "POINT (149.132598 -35.164948)",
+        "outdoor-mesh",
+        null, "54"
+      ],
+      [
+        "row-y68y.35b5_qgf2",
+        "00000000-0000-0000-C34D-6FCD4D13088F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP15",
+        "-35.281390,149.124534",
+        "POINT (149.124534 -35.28139)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-xtsr.6hqe.evsc",
+        "00000000-0000-0000-0EDF-9D65295ECF38",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP09",
+        "-35.279747,149.127459",
+        "POINT (149.127459 -35.279747)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-3fjs_3u6z~zq8y",
+        "00000000-0000-0000-4384-10063C73E95C",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP17",
+        "-35.239669,149.060668",
+        "POINT (149.060668 -35.239669)",
+        "outdoor",
+        null, "32"
+      ],
+      [
+        "row-2yac-6dnh.feia",
+        "00000000-0000-0000-3D60-E96A4567D29E",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP01",
+        "-35.419993,149.065313",
+        "POINT (149.065313 -35.419993)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-v5ss.uw9x_ghfy",
+        "00000000-0000-0000-5469-2EAC1F014807",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Office",
+        "-35.251836,149.134412",
+        "POINT (149.134412 -35.251836)",
+        "indoor",
+        null, "71"
+      ],
+      [
+        "row-4bv4-g8kg.c3r6",
+        "00000000-0000-0000-2B2D-1BDF65452A7A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR_Om_Shanti_College",
+        "-35.328353,149.143012",
+        "POINT (149.143012 -35.328353)",
+        "indoor",
+        null, "30"
+      ],
+      [
+        "row-hcmy_y4zu_ftqd",
+        "00000000-0000-0000-AA5D-A6F367EB1640",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_WEST_AP10",
+        "-35.279528,149.126516",
+        "POINT (149.126516 -35.279528)",
+        "outdoor",
+        null, "83"
+      ],
+      [
+        "row-misr_35gm~fgsr",
+        "00000000-0000-0000-16EB-382BC6791074",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP03-1",
+        "-35.271515,149.132955",
+        "POINT (149.132955 -35.271515)",
+        "outdoor-mesh",
+        null, "52"
+      ],
+      [
+        "row-sn88~tjkk.z8pt",
+        "00000000-0000-0000-A8C6-BEBCE7783656",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "TUGG_AP16",
+        "-35.420764,149.073017",
+        "POINT (149.073017 -35.420764)",
+        "outdoor",
+        null, "101"
+      ],
+      [
+        "row-a2sp.pd4u-r9yy",
+        "00000000-0000-0000-7B72-5802FACFD720",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "Floriade-FL06",
+        "-35.288866,149.131144",
+        "POINT (149.131144 -35.288866)",
+        "outdoor",
+        null, "111"
+      ],
+      [
+        "row-phfg~75cu-5bj9",
+        "00000000-0000-0000-8F04-03F0DAF571E4",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "SCCTUGG_AP05",
+        "-35.415462,149.063809",
+        "POINT (149.063809 -35.415462)",
+        "indoor",
+        null, "101"
+      ],
+      [
+        "row-2uzx-w2ng-wbkk",
+        "00000000-0000-0000-B99A-D22C54C5003F",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP08-2",
+        "-35.238393,149.067672",
+        "POINT (149.067672 -35.238393)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-cp5d~vjtr.2h6p",
+        "00000000-0000-0000-BDAE-2C14BDF1895A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP02-1",
+        "-35.238218,149.063298",
+        "POINT (149.063298 -35.238218)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-54sv~sh22-vbp6",
+        "00000000-0000-0000-DB11-DFEC4F6F2FEE",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KALE_AP01",
+        "-35.220955,149.103986",
+        "POINT (149.103986 -35.220955)",
+        "outdoor",
+        null, "4"
+      ],
+      [
+        "row-rktn~zhgw.9h52",
+        "00000000-0000-0000-8106-02896E8C432D",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MIT_Services",
+        "-35.323164,149.174946",
+        "POINT (149.174946 -35.323164)",
+        "indoor",
+        null, "64"
+      ],
+      [
+        "row-vbfm_mmdx-fdkq",
+        "00000000-0000-0000-8686-8C198DDF23C1",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR-Theatre_AP06",
+        "-35.281538,149.130294",
+        "POINT (149.130294 -35.281538)",
+        "indoor",
+        null, "83"
+      ],
+      [
+        "row-5x98-v92p-ghsy",
+        "00000000-0000-0000-E7F2-D57348369BD7",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CBR_TwoBefore10_ReadingRoom",
+        "-35.256408,149.078689",
+        "POINT (149.078689 -35.256408)",
+        "indoor",
+        null, "14"
+      ],
+      [
+        "row-bgb5.d6d2-f3h2",
+        "00000000-0000-0000-0247-4879CB3DD8A8",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "MANU_AP02",
+        "-35.320985,149.132234",
+        "POINT (149.132234 -35.320985)",
+        "outdoor",
+        null, "30"
+      ],
+      [
+        "row-q379-92f2.i3ne",
+        "00000000-0000-0000-FB58-1E7102285739",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "CIVC_EAST_AP22-1",
+        "-35.279381,149.130582",
+        "POINT (149.130582 -35.279381)",
+        "outdoor-mesh",
+        null, "83"
+      ],
+      [
+        "row-e2wj-wy3f_t8ux",
+        "00000000-0000-0000-E8FE-537239AAFB6E",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP11-1",
+        "-35.248229,149.149471",
+        "POINT (149.149471 -35.248229)",
+        "outdoor-mesh",
+        null, "71"
+      ],
+      [
+        "row-eyyj_tjsi.w4ud",
+        "00000000-0000-0000-6B0E-19DDA9180E23",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "BELC_AP12-1",
+        "-35.237763,149.071075",
+        "POINT (149.071075 -35.237763)",
+        "outdoor-mesh",
+        null, "32"
+      ],
+      [
+        "row-mk2h~xsbe~2ewd",
+        "00000000-0000-0000-7F66-676B3EA00EA2",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "HAWK_AP01-2",
+        "-35.243426,149.044337",
+        "POINT (149.044337 -35.243426)",
+        "outdoor-mesh",
+        null, "25"
+      ],
+      [
+        "row-4fbu~gvvp_4iay",
+        "00000000-0000-0000-67CB-C55893FC369A",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "DICK_AP05-2",
+        "-35.249720,149.136728",
+        "POINT (149.136728 -35.24972)",
+        "outdoor-mesh",
+        null, "71"
+      ],
+      [
+        "row-hhzy_99ri_iyk4",
+        "00000000-0000-0000-3243-2CD8A865AC9B",
+        0, 1652250548, null, 1652250551, null, "{ }",
+        "KAMB_AP01-1",
+        "-35.3799976,149.0590033",
+        "POINT (149.0590033 -35.3799976)",
+        "outdoor-mesh",
+        null, "108"
+      ]
+    ]
+  }

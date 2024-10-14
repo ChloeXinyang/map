@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map</title>
+    <title>Interactive Map with Toggle Layers and Data Table</title>
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
@@ -12,51 +12,60 @@
             width: 600px;
             height: 600px;
         }
+        #data-table {
+            margin-top: 20px;
+            width: 600px;
+        }
     </style>
 </head>
 <body>
+    <h1>Interactive Map of Australia's National Heritage Sites</h1>
+
+    <!-- Checkboxes for toggling layers -->
+    <div>
+        <label><input type="checkbox" id="toggleStates" checked> Show Australian States</label><br>
+        <label><input type="checkbox" id="toggleHeritage" checked> Show National Heritage Sites</label>
+    </div>
+
+    <!-- Vega-Lite Map -->
     <div id="map"></div>
 
+    <!-- Data Table -->
+    <table id="data-table" border="1">
+        <thead>
+            <tr>
+                <th>Layer</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be populated here -->
+        </tbody>
+    </table>
+
     <script>
-        const spec = {
-                    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        // Initial Vega-Lite Spec with layers
+        let spec = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
             "width": 600,
             "height": 600,
             "layer": [
               {
-                "data": {
-                  "graticule": true
-                },
-                "projection": {
-                  "type": "mercator",
-                  "scale": 400
-                },
-                "mark": {
-                  "type": "geoshape",
-                  "stroke": "#ccc",
-                  "strokeWidth": 0.5
-                }
+                "data": {"graticule": true},
+                "projection": {"type": "mercator", "scale": 400},
+                "mark": {"type": "geoshape", "stroke": "#ccc", "strokeWidth": 0.5}
               },
               {
+                "name": "statesLayer",
                 "data": {
                   "url": "https://raw.githubusercontent.com/ChloeXinyang/map/refs/heads/main/australian-states.json",
-                  "format": {
-                    "type": "topojson",
-                    "feature": "geometry"
-                  }
+                  "format": {"type": "topojson", "feature": "geometry"}
                 },
-                "projection": {
-                  "type": "mercator",
-                  "center": [135, -30],
-                  "scale": 400
-                },
-                "mark": {
-                  "type": "geoshape",
-                  "fill": "#fee8c8",
-                  "stroke": "black"
-                }
+                "projection": {"type": "mercator", "center": [135, -30], "scale": 400},
+                "mark": {"type": "geoshape", "fill": "#fee8c8", "stroke": "black"}
               },
               {
+                "name": "heritageLayer",
                 "data": {
                   "url": "https://raw.githubusercontent.com/ChloeXinyang/map/refs/heads/main/National_Heritage_List_Spatial_Database_(NHL)_-_public.json",
                   "format": {
@@ -64,39 +73,57 @@
                     "feature": "National_Heritage_List_Spatial_Database_(NHL)_-_public"
                   }
                 },
-                "projection": {
-                  "type": "mercator",
-                  "center": [135, -30],
-                  "scale": 400
-                },
-                "mark": {
-                  "type": "geoshape",
-                  "fill": "#e34a33",
-                  "stroke": "black"
-                }
+                "projection": {"type": "mercator", "center": [135, -30], "scale": 400},
+                "mark": {"type": "geoshape", "fill": "#e34a33", "stroke": "black"}
               }
-            ],
-            "encoding": {
-                "color": {
-                    "field": "Australia National Heritage Sites",
-                    "type": "nominal",
-                    "scale": {
-                        "domain": ["National Heritage"],
-                        "range": ["#e34a33"]
-                    },
-                    "legend": {
-                        "values": ["National Heritage"],
-                        "labelColor": "#e34a33",
-                        "labelFontSize": 12,
-                        "symbolSize": 100
-                    }
-                }
-            }
+            ]
         };
 
-        vegaEmbed('#map', spec).then(result => {
-            // Rendering completed
-        }).catch(console.error);
+        // Function to update the map based on checkboxes
+        function updateMap() {
+            const statesChecked = document.getElementById('toggleStates').checked;
+            const heritageChecked = document.getElementById('toggleHeritage').checked;
+
+            // Update layers based on checkbox selections
+            spec.layer = [
+                spec.layer[0]  // Graticule layer (background grid)
+            ];
+
+            if (statesChecked) {
+                spec.layer.push(spec.layer[1]);  // Australian States layer
+            }
+
+            if (heritageChecked) {
+                spec.layer.push(spec.layer[2]);  // National Heritage Sites layer
+            }
+
+            // Re-render the map with the updated spec
+            vegaEmbed('#map', spec);
+
+            // Update the data table based on which layers are active
+            updateTable(statesChecked, heritageChecked);
+        }
+
+        // Function to update the data table based on active layers
+        function updateTable(statesChecked, heritageChecked) {
+            const tbody = document.querySelector('#data-table tbody');
+            tbody.innerHTML = '';  // Clear the table content
+
+            if (statesChecked) {
+                tbody.innerHTML += `<tr><td>Australian States</td><td>Displaying states boundaries</td></tr>`;
+            }
+
+            if (heritageChecked) {
+                tbody.innerHTML += `<tr><td>National Heritage Sites</td><td>Displaying heritage site locations</td></tr>`;
+            }
+        }
+
+        // Initial map rendering
+        updateMap();
+
+        // Add event listeners to checkboxes
+        document.getElementById('toggleStates').addEventListener('change', updateMap);
+        document.getElementById('toggleHeritage').addEventListener('change', updateMap);
     </script>
 </body>
 </html>
